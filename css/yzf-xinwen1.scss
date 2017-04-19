@@ -1,0 +1,331 @@
+body{
+    background:#f6f6f6;
+}
+.yzf-banner{
+    width: 100%;
+    height:750px;
+    background-image: url(../img/yzf/banner1_01.png);
+    background-size:cover;
+    background-position:center center;
+}
+.box1{
+    width:1200px;
+    height:1845px;
+    position:absolute;
+    top:662px;
+    left:75px;
+    background:#fff;
+    > .yzf-nav{
+        width:330px;
+        height:100px;
+        background-image:url(../img/yzf/xinwen1_03.png);
+        background-size:cover;
+        background-position: center;
+        margin:50px auto auto auto;
+    } 
+    > .yzf-down{
+        width:30px;
+        height:30px;
+        background-image: url(../img/yzf/xin1_03.png);
+         background-size:cover;
+        background-position: center;
+         margin:10px auto auto auto;
+    }
+    > .yzf-sign{
+        width:110px;
+        height:85px;
+        background-image:url(../img/yzf/xinwen1_07.png);
+        background-size:cover;
+        background-position: center;
+        margin:20px auto 0 165px;
+    }
+    > .yzf-list1{
+        width:873px;
+        height:200px;
+        border-top:1px solid #ccc;
+        margin-left:165px;
+        margin-top: -14px;
+        padding-top:27px;
+        >.yzf-font1{
+            width:50px;
+            height:50px;
+            background-image: url(../img/yzf/font_03.png);
+            margin-top:20px;
+            float:left;
+        }
+        >.yzf-img1{
+            width:216px;
+            height:140px;
+            background-image:url(../img/yzf/xinwen1_11.png);
+             background-size:cover;
+            background-position: center;
+            float:left;
+            margin-left:10px;
+        }
+        >.yzf-wenzi{
+            width:585px;
+            height:100%;
+            float:left;
+            margin-left:10px;
+            position: relative;
+            >h2{
+                font-size:8px;
+                font-family: "helvetica";
+                color:#CCCCCC;
+                float:left; 
+                position:absolute;
+                top:0;
+                right:50px;
+            }
+            >h5{
+                font-size:14px;
+                font-family: "Arial";
+                color:#898888;
+                margin-left:15px;
+            }
+            >h3{
+                font-size:14px;
+                font-family: "微软雅黑";
+                color:#000;
+                margin-left:15px;
+                margin-top:7px;
+            }
+            >h4{
+                font-size:14px;
+                font-family: "微软雅黑";
+                color:#000;
+                margin-left:15px;
+                margin-top:14px;
+            }
+            >h6{
+                font-size:12px;
+                font-family: "Arial";
+                color:#898888;
+                margin-left:15px;
+                margin-top:14px;
+            }        
+        }
+    }
+    > .yzf-list2{
+        width:1020px;
+        height:200px;
+//      border-top:1px solid #ccc;
+        margin-left:120px;
+        margin-top: -14px;
+        padding-top:27px;
+        background:#f6f5f5;
+        >.yzf-font2{
+            width:50px;
+            height:50px;
+            background-image: url(../img/yzf/font_07.png);
+            margin-top:20px;
+            float:left;
+        }
+        >.yzf-img2{
+            width:216px;
+            height:140px;
+            background-image:url(../img/yzf/xinwen1_15.png);
+             background-size:cover;
+            background-position: center;
+            float:left;
+            margin-left:10px;
+        }
+        >.yzf-wenzi2{
+            width:610px;
+            height:100%;
+            float:left;
+            margin-left:10px;
+            position: relative;
+            >h2{
+                font-size:8px;
+                font-family: "helvetica";
+                color:#CCCCCC;
+                float:left; 
+                position:absolute;
+                top:0;
+                right:50px;
+            }
+            >h5{
+                font-size:14px;
+                font-family: "Arial";
+                color:#898888;
+                margin-left:15px;
+            }
+            >h3{
+                font-size:14px;
+                font-family: "微软雅黑";
+                color:#000;
+                margin-left:15px;
+                margin-top:7px;
+            }
+            >h4{
+                font-size:14px;
+                font-family: "微软雅黑";
+                color:#000;
+                margin-left:15px;
+                margin-top:14px;
+            }
+            >h6{
+                font-size:12px;
+                font-family: "Arial";
+                color:#898888;
+                margin-left:15px;
+                margin-top:14px;
+            }
+        }
+    }
+    > .yzf-list3{
+        width:873px;
+        height:200px;
+//      border-top:1px solid #ccc;
+        margin-left:165px;
+//      margin-top: -14px;
+        padding-top:27px;
+        >.yzf-font3{
+            width:50px;
+            height:50px;
+            background-image: url(../img/yzf/font_03.png);
+            margin-top:20px;
+            float:left;
+        }
+        >.yzf-img3{
+            width:216px;
+            height:140px;
+            background-image:url(../img/yzf/xinwen1_11.png);
+             background-size:cover;
+            background-position: center;
+            float:left;
+            margin-left:10px;
+        }
+        >.yzf-wenzi3{
+            width:585px;
+            height:100%;
+            float:left;
+            margin-left:10px;
+            position: relative;
+            >h2{
+                font-size:8px;
+                font-family: "helvetica";
+                color:#CCCCCC;
+                float:left; 
+                position:absolute;
+                top:0;
+                right:50px;
+            }
+            >h5{
+                font-size:14px;
+                font-family: "Arial";
+                color:#898888;
+                margin-left:15px;
+            }
+            >h3{
+                font-size:14px;
+                font-family: "微软雅黑";
+                color:#000;
+                margin-left:15px;
+                margin-top:7px;
+            }
+            >h4{
+                font-size:14px;
+                font-family: "微软雅黑";
+                color:#000;
+                margin-left:15px;
+                margin-top:14px;
+            }
+            >h6{
+                font-size:12px;
+                font-family: "Arial";
+                color:#898888;
+                margin-left:15px;
+                margin-top:14px;
+            }        
+        }
+    }
+    > .yzf-list4{
+        width:873px;
+        height:200px;
+        border-top:1px solid #ccc;
+        margin-left:165px;
+//      margin-top: -14px;
+        padding-top:27px;
+        >.yzf-font4{
+            width:50px;
+            height:50px;
+            background-image: url(../img/yzf/font_03.png);
+            margin-top:20px;
+            float:left;
+        }
+        >.yzf-img4{
+            width:216px;
+            height:140px;
+            background-image:url(../img/yzf/xinwen1_11.png);
+             background-size:cover;
+            background-position: center;
+            float:left;
+            margin-left:10px;
+        }
+        >.yzf-wenzi4{
+            width:585px;
+            height:100%;
+            float:left;
+            margin-left:10px;
+            position: relative;
+            >h2{
+                font-size:8px;
+                font-family: "helvetica";
+                color:#CCCCCC;
+                float:left; 
+                position:absolute;
+                top:0;
+                right:50px;
+            }
+            >h5{
+                font-size:14px;
+                font-family: "Arial";
+                color:#898888;
+                margin-left:15px;
+            }
+            >h3{
+                font-size:14px;
+                font-family: "微软雅黑";
+                color:#000;
+                margin-left:15px;
+                margin-top:7px;
+            }
+            >h4{
+                font-size:14px;
+                font-family: "微软雅黑";
+                color:#000;
+                margin-left:15px;
+                margin-top:14px;
+            }
+            >h6{
+                font-size:12px;
+                font-family: "Arial";
+                color:#898888;
+                margin-left:15px;
+                margin-top:14px;
+            }        
+        }
+    }
+    >nav{
+     text-align: center;
+      margin-top:75px;  
+    }
+}
+
+//@mixin list($width3,$left){
+//  width:#{};
+//  height:190px;
+//  border-top:1px solid #ccc;
+//  margin-left:165px;
+//  margin-top: -14px;
+//  padding-top:27px;
+//}
+//$width3:873px;
+.yzf-foot{
+    width:315px;
+    height:150px;
+    background-image:url(../img/yzf/footer_03.png);
+    margin: 0 auto;
+}
