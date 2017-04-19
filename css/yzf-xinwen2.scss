@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background:#f6f6f6;
+}
+@media only screen and (max-width:750px){
+    .yzf-banner1{
+        display: none;
+    }
+    .yzf-banner{
+    width: 100%;
+    height:auto;
+//  background-image: url(../img/yzf/banner2_02.png);
+//  background-size:cover;
+//  background-position:center center;
+}
+.yzf-banner img{
+    width:100%;
+    height:auto;
+}
+.box{
+    width:100%;
+    height:auto;
+    position:relative;
+}
+.box1{
+    width:89%;
+    height:auto;
+    position:absolute;
+    top:-40px;
+    left:5%;
+//  margin-top:-20%;
+//  z-index:100;
+    margin:0 auto;
+    background:#fff;
+    > .yzf-sign{
+        width:100%;
+        height:80px;
+        margin-top:75px;
+        background-image:url(../img/yzf/xinwen2_03.png);
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    > .yzf-daohang{
+       position: absolute;
+        top:70px;
+        left:12%;
+        a{
+            font-size: 24px;
+            color:#999999;
+        }
+        span{
+            font-size: 24px;
+             color:#999999;
+        }
+        .yzf-active{
+            color:#fe3052;
+        }
+    }
+    > .yzf-biaoti{
+        width:100%;
+        height:126px;
+        background-image: url(../img/yzf/xinwen2_06.png);
+        background-size: cover;
+        background-position: center;
+        margin:0 auto;
+    }
+    > .yzf-down{
+        width:20px;
+        height:20px;
+        background-image: url(../img/yzf/xin1_03.png);
+        background-size:cover;
+        background-position: center;
+        margin:5px auto auto auto;
+    }
+     > .yzf-biaoti2{
+        width:100%;
+        height:126px;
+        background-image: url(../img/yzf/xinwen2_09.png);
+        background-size: cover;
+        background-position: center;
+        margin:0 auto;
+    }
+    .yzf-date{
+        width:90%;
+        height:auto;
+        margin:0 auto;
+        font-size:14px;
+        font-family: "[STXihei]";
+        color:#545454;
+        > b{
+            font-family: "微软雅黑";
+            font-size: 24px;
+        }
+        > span {
+             font-family: "[MicrosoftYa...";
+            font-size: 18px;
+            display: block;
+        }
+    }
+    .yzf-line{
+        width:100%;
+        height:14px;
+        background-image: url(../img/yzf/xinwen2_12.png);
+        background-size: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin:0 auto;
+    }
+    .yzf-font1{
+        display: block;
+        width:90%;
+        margin: 30px auto;
+        height:auto;
+        font-size:14px;
+        font-family:"宋体";
+        color:#1f1f1f;
+    }
+     .yzf-font2{
+        display: block;
+        width:90%;
+        margin: 35px auto;
+        height:auto;
+        font-size:12px;
+        font-family:"[MyriadPro]";
+        color:#3e3a39;
+    }
+    .yzf-img1{
+        width:40%;
+        height:325px;
+        background-image: url(../img/yzf/xinwen2_15.png);
+        background-size: cover;
+        background-position: center;
+        float:left;
+        margin-bottom: 100px;
+    }
+    .yzf-img2{
+        width:60%;
+        height:325px;
+        background-image: url(../img/yzf/xinwen2_16.png);
+        background-size: cover;
+        background-position: center;
+        float:left;
+        margin-bottom: 100px;
+    }
+    .yzf-list1{
+        width:90%;
+        height:206px;
+        margin:0 auto;
+        border-bottom:1px solid #ccc;
+//      background:red;
+        >.one{
+            width:119px;
+            height:119px;
+            display: block;
+            float:left;
+            margin: 43px auto;
+        }
+        > p{
+            font-size:14px;
+            font-family: "微软雅黑";
+            margin-left:20px;
+            float:left;
+            color:#000;
+            display: block;
+            margin-top:15px;
+        }
+        >.center{
+               width:60%;
+               height:155px;
+               float:left;
+               margin-top:40px;
+               margin-left:20px;
+               >.icon{
+                    margin-top:20px;
+//                  line-height:20px;
+                    color:#393838;
+                   > .fontone{
+                       display: block;
+                       float:left;
+                   }
+                   > .fonttwo{
+                       display: block;
+                       margin-top:8px;
+                       float:left;
+                       margin-right:25px;
+                   }
+                   > .fontthree{
+                        display: block;
+                       float:left;
+                   }
+                   > .fontfour{
+                        display: block;
+                       margin-top:8px;
+                       float:left;
+                       margin-right:25px;
+                   }
+                   > .fontfive{
+                       display: block;
+                       width:15px;
+                       height:15px;
+                       border-radius: 50%;
+                       background:red;
+                       float:left;
+                        margin-top:8px;
+                   }
+                   > .fontsix{
+                        display: block;
+                       margin-top:8px;
+                       float:left;
+                       margin-left:25px;
+                   }
+               }
+        }
+        >.two{
+            float:left;
+            display: block;
+            margin-top:80px;
+            margin-left:30px;
+            display: none;
+        }
+        >.three{
+            float:left;
+            display: block;
+            margin-top:80px;
+             margin-left:30px;
+             display: none;
+        }
+    }
+    .yzf-lunbo{
+        width:100%;
+        height:auto;
+        >img{
+            width:30%;
+            height:auto;
+            float:left;
+        }
+    }
+    .yzf-more{
+        width:146px;
+        height:73px;
+        background-image: url(../img/yzf/xinwen2_49.png);
+        background-size:cover;
+        background-position: center;
+        margin:0 auto;
+        margin-top:100px;
+    }
+    .yzf-foot{
+        width:317px;
+        height:135px;
+        background-image: url(../img/yzf/footer_03.png);
+        background-size:cover;
+        background-position: center;
+        margin:0 auto;
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:750px){
+    .yzf-banner{
+        display: none;
+    } 
+.yzf-banner1{
+    width: 100%;
+    height:750px;
+    background-image: url(../img/yzf/banner1_01.png);
+    background-size:cover;
+    background-position:center center;
+}
+.box1{
+    width:89%;
+    height:auto;
+    position:absolute;
+    top:662px;
+    left:75px;
+    background:#fff;
+    > .yzf-sign{
+        width:100%;
+        height:115px;
+        margin-top:75px;
+        background-image:url(../img/yzf/xinwen2_03.png);
+        background-size: cover;
+        background-position: center;
+    }
+    > .yzf-daohang{
+       position: absolute;
+        top:70px;
+        left:180px;
+        a{
+            font-size: 24px;
+            color:#999999;
+        }
+        span{
+            font-size: 24px;
+             color:#999999;
+        }
+        .yzf-active{
+            color:#fe3052;
+        }
+    }
+    > .yzf-biaoti{
+        width:546px;
+        height:126px;
+        background-image: url(../img/yzf/xinwen2_06.png);
+        background-size: cover;
+        background-position: center;
+        margin:0 auto;
+    }
+    > .yzf-down{
+        width:30px;
+        height:30px;
+        background-image: url(../img/yzf/xin1_03.png);
+         background-size:cover;
+        background-position: center;
+         margin:5px auto auto auto;
+    }
+     > .yzf-biaoti2{
+        width:546px;
+        height:126px;
+        background-image: url(../img/yzf/xinwen2_09.png);
+        background-size: cover;
+        background-position: center;
+        margin:0 auto;
+    }
+    .yzf-date{
+        width:1020px;
+        height:auto;
+        margin:0 auto;
+        font-size:14px;
+        font-family: "[STXihei]";
+        color:#545454;
+        > strong{
+            font-family: "微软雅黑";
+            font-size: 24px;
+        }
+        > span {
+             font-family: "[MicrosoftYa...";
+            font-size: 18px;
+            display: block;
+        }
+    }
+    .yzf-line{
+        width:1068px;
+        height:14px;
+        background-image: url(../img/yzf/xinwen2_12.png);
+        background-size: cover;
+        background-position: center;
+        margin:0 auto;
+    }
+    .yzf-font1{
+        display: block;
+        width:1020px;
+        margin: 30px auto;
+        height:auto;
+        font-size:14px;
+        font-family:"宋体";
+        color:#1f1f1f;
+    }
+     .yzf-font2{
+        display: block;
+        width:1020px;
+        margin: 35px auto;
+        height:auto;
+        font-size:12px;
+        font-family:"[MyriadPro]";
+        color:#3e3a39;
+    }
+    .yzf-img1{
+        width:40%;
+        height:544px;
+        background-image: url(../img/yzf/xinwen2_15.png);
+        background-size: cover;
+        background-position: center;
+        float:left;
+        margin-bottom: 100px;
+    }
+    .yzf-img2{
+        width:60%;
+        height:544px;
+        background-image: url(../img/yzf/xinwen2_16.png);
+        background-size: cover;
+        background-position: center;
+        float:left;
+        margin-bottom: 100px;
+    }
+    .yzf-list1{
+        width:1020px;
+        height:206px;
+        margin:0 auto;
+        border-bottom:1px solid #ccc;
+        >.one{
+            width:119px;
+            height:119px;
+            display: block;
+            float:left;
+            margin: 43px auto;
+        }
+        > p{
+            font-size:14px;
+            font-family: "微软雅黑";
+            margin-left:20px;
+            float:left;
+            color:#000;
+            display: block;
+            margin-top:15px;
+        }
+        >.center{
+               width:580px;
+               height:155px;
+               float:left;
+               margin-top:45px;
+               margin-left:20px;
+               >.icon{
+                    margin-top:20px;
+//                  line-height:20px;
+                    color:#393838;
+                   > .fontone{
+                       display: block;
+                       float:left;
+                   }
+                   > .fonttwo{
+                       display: block;
+                       margin-top:8px;
+                       float:left;
+                       margin-right:25px;
+                   }
+                   > .fontthree{
+                        display: block;
+                       float:left;
+                   }
+                   > .fontfour{
+                        display: block;
+                       margin-top:8px;
+                       float:left;
+                       margin-right:25px;
+                   }
+                   > .fontfive{
+                       display: block;
+                       width:15px;
+                       height:15px;
+                       border-radius: 50%;
+                       background:red;
+                       float:left;
+                        margin-top:8px;
+                   }
+                   > .fontsix{
+                        display: block;
+                       margin-top:8px;
+                       float:left;
+                       margin-left:25px;
+                   }
+               }
+        }
+        >.two{
+            float:left;
+            display: block;
+            margin-top:80px;
+            margin-left:30px;
+        }
+        >.three{
+            float:left;
+            display: block;
+            margin-top:80px;
+             margin-left:30px;
+        }
+    }
+    .yzf-lunbo{
+        display: none;
+    }
+    .yzf-more{
+        width:146px;
+        height:73px;
+        background-image: url(../img/yzf/xinwen2_49.png);
+        background-size:cover;
+        background-position: center;
+        margin:0 auto;
+        margin-top:100px;
+    }
+    .yzf-foot{
+        width:317px;
+        height:135px;
+        background-image: url(../img/yzf/footer_03.png);
+        background-size:cover;
+        background-position: center;
+        margin:0 auto;
+    }
+}
+}
