@@ -252,7 +252,7 @@ body{
             height:auto;
             float:left;
             margin-top:0.2rem;
-            margin-left:0.5rem;
+            margin-left:20px;
             color:#000;
             >p{
                 display: none;
@@ -541,7 +541,7 @@ body{
     }
     > .yzf-daohang{
        position: absolute;
-        top:0.7rem;
+        top:55px;
         left:12%;
         a{
             font-size: 24px;
@@ -825,7 +825,7 @@ body{
             height:auto;
             display: block;
             float:left;
-            margin-top:0.4rem;
+            margin-top:30px;
             margin-left:5%;
         }
         >.three{
@@ -833,7 +833,7 @@ body{
             height:auto;
             display: block;
             float:left;
-            margin-top:0.4rem;
+            margin-top:30px;
             margin-left:5%;
         }
     }
@@ -963,5 +963,8 @@ body{
             color: #fff;
             margin-top: 20px;
         }
+    }
+    .zhc-footermin{
+        display: none;
     }
 }

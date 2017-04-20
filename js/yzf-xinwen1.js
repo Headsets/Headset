@@ -3,28 +3,28 @@ $(document).ready(function(){
 		$(this).css({
 			background:'#F6F5F5',
 			transform:'translateX(-45px)',
-			width:'1020px',
+			width:'95%',
 		});
 	},function(){
 		$(this).css({
 			background:'#fff',
 			transform:'translateX(0)',
 			transition:'transform .5s',
-			width:'873px',
+			width:'85%',
 		});
 	})
 	$('.yzf-list2').hover(function(){
 		$(this).css({
 			background:'#F6F5F5',
 			transform:'translateX(-45px)',
-			width:'1020px',
+			width:'95%',
 		});
 	},function(){
 		$(this).css({
 			background:'#fff',
 			transform:'translateX(0)',
 			transition:'transform .5s',
-			width:'873px',
+			width:'85%',
 		});
 	})
 	
@@ -33,17 +33,14 @@ $(document).ready(function(){
 		$(this).css({
 			background:'#F6F5F5',
 			transform:'translateX(-45px)',
-			width:'1020px',
+			width:'95%',
 		});
-		$(this).animate({
-			width:'1020px',
-		},300);
 	},function(){
 		$(this).css({
 			background:'#fff',
 			transform:'translateX(0)',
 			transition:'transform .5s',
-			width:'873px',
+			width:'85%',
 		});
 	})
 	
@@ -51,21 +48,15 @@ $(document).ready(function(){
 		$(this).css({
 			background:'#F6F5F5',
 			transform:'translateX(-45px)',
-			width:'1020px',
+			width:'95%',
 //			transition:'transform 5s',
 		});
-		$(this).animate({
-			width:'1020px',
-		},300);
 	},function(){
 		$(this).css({
 			background:'#fff',
 			transform:'translateX(0)',
 			transition:'transform .5s',
-			width:'873px',
+			width:'85%',
 		});
-		$(this).animate({
-			width:'873px',
-		},300);
 	})
 })

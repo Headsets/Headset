@@ -215,7 +215,7 @@ body {
         height: auto;
         float: left;
         margin-top: 0.2rem;
-        margin-left: 0.5rem;
+        margin-left: 20px;
         color: #000; }
         .box1 .yzf-list1 > .center > p {
           display: none; }
@@ -447,7 +447,7 @@ body {
       background-position: center; }
     .box1 > .yzf-daohang {
       position: absolute;
-      top: 0.7rem;
+      top: 55px;
       left: 12%; }
       .box1 > .yzf-daohang a {
         font-size: 24px;
@@ -594,14 +594,14 @@ body {
         height: auto;
         display: block;
         float: left;
-        margin-top: 0.4rem;
+        margin-top: 30px;
         margin-left: 5%; }
       .box1 .yzf-list1 > .three {
         width: 10%;
         height: auto;
         display: block;
         float: left;
-        margin-top: 0.4rem;
+        margin-top: 30px;
         margin-left: 5%; }
     .box1 .yzf-lunbo {
       width: 100%;
@@ -705,4 +705,6 @@ body {
       border-top: 1px solid #fff;
       text-align: center;
       color: #fff;
-      margin-top: 20px; } }
+      margin-top: 20px; }
+  .zhc-footermin {
+    display: none; } }
