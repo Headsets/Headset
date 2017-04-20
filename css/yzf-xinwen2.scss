@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 body{
-    background:#f6f6f6;
+    background:#fff;
 }
 @media only screen and (max-width:750px){
     .yzf-banner1{
@@ -13,9 +13,6 @@ body{
     .yzf-banner{
     width: 100%;
     height:auto;
-//  background-image: url(../img/yzf/banner2_02.png);
-//  background-size:cover;
-//  background-position:center center;
 }
 .yzf-banner img{
     width:100%;
@@ -30,7 +27,7 @@ body{
     width:89%;
     height:auto;
     position:absolute;
-    top:-40px;
+    top:45px;
     left:5%;
 //  margin-top:-20%;
 //  z-index:100;
@@ -39,7 +36,6 @@ body{
     > .yzf-sign{
         width:100%;
         height:80px;
-        margin-top:75px;
         background-image:url(../img/yzf/xinwen2_03.png);
         background-size:100%;
         background-repeat: no-repeat;
@@ -47,7 +43,7 @@ body{
     }
     > .yzf-daohang{
        position: absolute;
-        top:70px;
+        top:0;
         left:12%;
         a{
             font-size: 24px;
@@ -70,20 +66,20 @@ body{
         margin:0 auto;
     }
     > .yzf-down{
-        width:20px;
-        height:20px;
+        width:25px;
+        height:25px;
         background-image: url(../img/yzf/xin1_03.png);
         background-size:cover;
         background-position: center;
         margin:5px auto auto auto;
     }
      > .yzf-biaoti2{
-        width:100%;
+        width:101%;
         height:126px;
         background-image: url(../img/yzf/xinwen2_09.png);
         background-size: cover;
         background-position: center;
-        margin:0 auto;
+        margin:0 auto; 
     }
     .yzf-date{
         width:90%;
@@ -94,10 +90,10 @@ body{
         color:#545454;
         > b{
             font-family: "微软雅黑";
-            font-size: 24px;
+            font-size: 20px;
         }
         > span {
-             font-family: "[MicrosoftYa...";
+             font-family: "[MyriadPro]";
             font-size: 18px;
             display: block;
         }
@@ -120,6 +116,7 @@ body{
         font-size:14px;
         font-family:"宋体";
         color:#1f1f1f;
+        text-align:justify; 
     }
      .yzf-font2{
         display: block;
@@ -129,6 +126,7 @@ body{
         font-size:12px;
         font-family:"[MyriadPro]";
         color:#3e3a39;
+        text-align:justify;
     }
     .yzf-img1{
         width:40%;
@@ -137,7 +135,7 @@ body{
         background-size: cover;
         background-position: center;
         float:left;
-        margin-bottom: 100px;
+        margin-bottom: 0.6rem;
     }
     .yzf-img2{
         width:60%;
@@ -146,11 +144,12 @@ body{
         background-size: cover;
         background-position: center;
         float:left;
-        margin-bottom: 100px;
+        margin-bottom: 0.6rem;
     }
     .yzf-list1{
-        width:90%;
-        height:206px;
+        width:100%;
+        height:auto;
+        overflow: hidden;
         margin:0 auto;
         border-bottom:1px solid #ccc;
 //      background:red;
@@ -159,7 +158,7 @@ body{
             height:119px;
             display: block;
             float:left;
-            margin: 43px auto;
+            margin: 0.2rem auto;
         }
         > p{
             font-size:14px;
@@ -168,16 +167,27 @@ body{
             float:left;
             color:#000;
             display: block;
-            margin-top:15px;
         }
         >.center{
-               width:60%;
-               height:155px;
-               float:left;
-               margin-top:40px;
-               margin-left:20px;
+            width:55%;
+            height:auto;
+            float:left;
+            margin-top:0.2rem;
+            margin-left:20px;
+            color:#000;
+            >p{
+                display: none;
+            }
+            >h2{
+               font-size:14px;
+                font-family: "微软雅黑";
+                margin:0;
+//              float:left;
+                color:#000;
+                color: #555;
+            }
                >.icon{
-                    margin-top:20px;
+                    margin-top:0.2rem;
 //                  line-height:20px;
                     color:#393838;
                    > .fontone{
@@ -188,7 +198,7 @@ body{
                        display: block;
                        margin-top:8px;
                        float:left;
-                       margin-right:25px;
+                       margin-right:0.15rem;
                    }
                    > .fontthree{
                         display: block;
@@ -198,7 +208,7 @@ body{
                         display: block;
                        margin-top:8px;
                        float:left;
-                       margin-right:25px;
+                       margin-right:0.15rem;
                    }
                    > .fontfive{
                        display: block;
@@ -207,13 +217,13 @@ body{
                        border-radius: 50%;
                        background:red;
                        float:left;
-                        margin-top:8px;
+                       margin-top:8px;
                    }
                    > .fontsix{
-                        display: block;
+                       display: block;
                        margin-top:8px;
                        float:left;
-                       margin-left:25px;
+                        margin-left:0.05rem;
                    }
                }
         }
@@ -248,7 +258,7 @@ body{
         background-size:cover;
         background-position: center;
         margin:0 auto;
-        margin-top:100px;
+        margin-top:0.6rem;
     }
     .yzf-foot{
         width:317px;
@@ -257,6 +267,7 @@ body{
         background-size:cover;
         background-position: center;
         margin:0 auto;
+         margin-top:0.6rem;
     }
 }
 }
@@ -270,6 +281,9 @@ body{
 
 
 @media only screen and (min-width:750px){
+body{
+    background:#f6f6f6;
+}
     .yzf-banner{
         display: none;
     } 
@@ -279,26 +293,111 @@ body{
     background-image: url(../img/yzf/banner1_01.png);
     background-size:cover;
     background-position:center center;
+    .navmax {
+            width: 100%;
+            height: 60px;
+            position: absolute;
+            top: 34px;
+            left: 50%;
+            margin-left:-50%;
+            overflow: hidden;
+            .juone {
+                width: 10%;
+                height: 60px;
+                border-radius: 0  50px 50px 0;
+                background: #393A3A;
+                float: left;
+            }
+            .sy2 {
+                width: 6%;
+                height: 60px;
+                float: left;
+                background-image: url(../img/ly/sy.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 66px 60px;
+                margin-left: 2%;
+            }
+            .jutwo {
+                width: 80%;
+                height: 60px;
+                 background: #393A3A;
+                border-radius: 50px 0 0 50px;
+                margin-left:2%;
+                float: left;
+                .active{
+                    border-bottom: 4px solid #ff0000;
+                    box-sizing: border-box;
+                }
+                img {
+                    float: left;
+                }
+                a{
+                    height:100%;
+                    float:left;
+                    font-size: 18px;
+                    color:white;
+                    padding: 0 10px;
+                    line-height: 60px;
+                    text-decoration: none;
+                    span{
+                       font-size: 18px;
+                    }
+                }
+                .denglu{
+                    width:120px;
+                    height:60px;
+                    margin-left:50px;
+                    float:left;
+                    a{
+                        font-size: 16px;
+                        float:left;
+                        margin-top:2px;
+                    }
+                }
+                input{
+                    width:170px;
+                    height:24px;
+                    border-radius: 7px;
+                    margin-left:20px;
+                    margin-top:16px;
+                    border-color:white;
+                    outline: none;
+                    padding-left: 10px;
+                    box-sizing: border-box;
+                    background: rgba(0,0,0,0);
+                    color: #fff;
+                }
+            }
+        }
+}
+.box{
+    width:100%;
+    height:auto;
+    position:relative;
 }
 .box1{
     width:89%;
     height:auto;
     position:absolute;
-    top:662px;
-    left:75px;
+    top:-45px;
+    left:5%;
+//  margin-top:-20%;
+//  z-index:100;
+    margin:0 auto;
     background:#fff;
     > .yzf-sign{
         width:100%;
         height:115px;
         margin-top:75px;
         background-image:url(../img/yzf/xinwen2_03.png);
-        background-size: cover;
+        background-size: 100% 100%;
         background-position: center;
     }
     > .yzf-daohang{
        position: absolute;
-        top:70px;
-        left:180px;
+        top:0.7rem;
+        left:12%;
         a{
             font-size: 24px;
             color:#999999;
@@ -320,15 +419,15 @@ body{
         margin:0 auto;
     }
     > .yzf-down{
-        width:30px;
-        height:30px;
+        width:33px;
+        height:33px;
         background-image: url(../img/yzf/xin1_03.png);
          background-size:cover;
         background-position: center;
          margin:5px auto auto auto;
     }
      > .yzf-biaoti2{
-        width:546px;
+        width:40%;
         height:126px;
         background-image: url(../img/yzf/xinwen2_09.png);
         background-size: cover;
@@ -336,13 +435,13 @@ body{
         margin:0 auto;
     }
     .yzf-date{
-        width:1020px;
+        width:90%;
         height:auto;
         margin:0 auto;
         font-size:14px;
         font-family: "[STXihei]";
         color:#545454;
-        > strong{
+        > b{
             font-family: "微软雅黑";
             font-size: 24px;
         }
@@ -353,16 +452,16 @@ body{
         }
     }
     .yzf-line{
-        width:1068px;
+        width:100%;
         height:14px;
         background-image: url(../img/yzf/xinwen2_12.png);
-        background-size: cover;
+        background-size:100% 100%;
         background-position: center;
         margin:0 auto;
     }
     .yzf-font1{
         display: block;
-        width:1020px;
+        width:90%;
         margin: 30px auto;
         height:auto;
         font-size:14px;
@@ -371,7 +470,7 @@ body{
     }
      .yzf-font2{
         display: block;
-        width:1020px;
+        width:90%;
         margin: 35px auto;
         height:auto;
         font-size:12px;
@@ -396,17 +495,125 @@ body{
         float:left;
         margin-bottom: 100px;
     }
-    .yzf-list1{
-        width:1020px;
-        height:206px;
+//  .yzf-list1{
+//      width:100%;
+//      height:auto;
+//      margin:0 auto;
+//      border-bottom:1px solid #ccc;
+//      overflow: hidden;
+//      >.one{
+//          width:119px;
+//          height:119px;
+//          display: block;
+//          float:left;
+//          margin: 43px auto;
+//      }
+//      > p{
+//          font-size:14px;
+//          font-family: "微软雅黑";
+//          margin-left:20px;
+//          float:left;
+//          color:#000;
+//          display: block;
+//          margin-top:15px;
+//      }
+//      >.center{
+//             width:580px;
+//             height:155px;
+//             float:left;
+//             margin-top:45px;
+//             margin-left:20px;
+//             >h2{
+//                 display:none;
+//             }
+//             >.icon{
+//                  margin-top:20px;
+////                  line-height:20px;
+//                  color:#393838;
+//                 > .fontone{
+//                     display: block;
+//                     float:left;
+//                 }
+//                 > .fonttwo{
+//                     display: block;
+//                     margin-top:8px;
+//                     float:left;
+//                     margin-right:25px;
+//                 }
+//                 > .fontthree{
+//                      display: block;
+//                     float:left;
+//                 }
+//                 > .fontfour{
+//                      display: block;
+//                     margin-top:8px;
+//                     float:left;
+//                     margin-right:25px;
+//                 }
+//                 > .fontfive{
+//                     display: block;
+//                     width:15px;
+//                     height:15px;
+//                     border-radius: 50%;
+//                     background:red;
+//                     float:left;
+//                      margin-top:8px;
+//                 }
+//                 > .fontsix{
+//                      display: block;
+//                     margin-top:8px;
+//                     float:left;
+//                     margin-left:25px;
+//                 }
+//             }
+//      }
+//      >.two{
+//          float:left;
+//          display: block;
+//          margin-top:80px;
+//          margin-left:30px;
+//      }
+//      >.three{
+//          float:left;
+//          display: block;
+//          margin-top:80px;
+//           margin-left:30px;
+//      }
+//  }
+//  .yzf-lunbo{
+//      display: none;
+//  }
+//  .yzf-more{
+//      width:146px;
+//      height:73px;
+//      background-image: url(../img/yzf/xinwen2_49.png);
+//      background-size:cover;
+//      background-position: center;
+//      margin:0 auto;
+//      margin-top:100px;
+//  }
+//  .yzf-foot{
+//      width:317px;
+//      height:135px;
+//      background-image: url(../img/yzf/footer_03.png);
+//      background-size:cover;
+//      background-position: center;
+//      margin:0 auto;
+//  }
+//}
+.yzf-list1{
+        width:100%;
+        height:auto;
+        overflow: hidden;
         margin:0 auto;
         border-bottom:1px solid #ccc;
+//      background:red;
         >.one{
             width:119px;
             height:119px;
             display: block;
             float:left;
-            margin: 43px auto;
+            margin: 0.2rem auto 0.2rem 0.5rem;
         }
         > p{
             font-size:14px;
@@ -415,16 +622,19 @@ body{
             float:left;
             color:#000;
             display: block;
-            margin-top:15px;
         }
         >.center{
-               width:580px;
-               height:155px;
-               float:left;
-               margin-top:45px;
-               margin-left:20px;
+            width:50%;
+            height:auto;
+            float:left;
+            margin-top:0.25rem;
+            margin-left:0.2rem;
+          
+            >h2{
+                display: none;   
+            }
                >.icon{
-                    margin-top:20px;
+//                  margin-top:0.1rem;
 //                  line-height:20px;
                     color:#393838;
                    > .fontone{
@@ -435,7 +645,7 @@ body{
                        display: block;
                        margin-top:8px;
                        float:left;
-                       margin-right:25px;
+                       margin-right:0.25rem;
                    }
                    > .fontthree{
                         display: block;
@@ -445,7 +655,7 @@ body{
                         display: block;
                        margin-top:8px;
                        float:left;
-                       margin-right:25px;
+                       margin-right:0.25rem;
                    }
                    > .fontfive{
                        display: block;
@@ -454,31 +664,41 @@ body{
                        border-radius: 50%;
                        background:red;
                        float:left;
-                        margin-top:8px;
+                       margin-top:8px;
                    }
                    > .fontsix{
-                        display: block;
+                       display: block;
                        margin-top:8px;
                        float:left;
-                       margin-left:25px;
+                        margin-left:0.05rem;
                    }
                }
         }
         >.two{
-            float:left;
+            width:10%;
+            height:auto;
             display: block;
-            margin-top:80px;
-            margin-left:30px;
+            float:left;
+            margin-top:0.4rem;
+            margin-left:5%;
         }
         >.three{
-            float:left;
+           width:10%;
+            height:auto;
             display: block;
-            margin-top:80px;
-             margin-left:30px;
+            float:left;
+            margin-top:0.4rem;
+            margin-left:5%;
         }
     }
     .yzf-lunbo{
-        display: none;
+        width:100%;
+        height:auto;
+        >img{
+            width:30%;
+            height:auto;
+            float:left;
+        }
     }
     .yzf-more{
         width:146px;
@@ -487,7 +707,7 @@ body{
         background-size:cover;
         background-position: center;
         margin:0 auto;
-        margin-top:100px;
+        margin-top:0.6rem;
     }
     .yzf-foot{
         width:317px;
@@ -496,6 +716,7 @@ body{
         background-size:cover;
         background-position: center;
         margin:0 auto;
+         margin-top:0.6rem;
     }
 }
 }

@@ -1,20 +1,186 @@
 body{
     background:#f6f6f6;
 }
+@media only screen and (max-width:750px){
+   .yzf-banner{
+    width: 100%;
+    height:750px;
+    background-image: url(../img/yzf/banner1_01.png);
+    background-size:cover;
+    background-position:center center;
+    .navmax {
+            width: 100%;
+            height: 60px;
+            position: absolute;
+            top: 34px;
+            left: 50%;
+            margin-left:-50%;
+            overflow: hidden;
+            .juone {
+                width: 10%;
+                height: 60px;
+                border-radius: 0  50px 50px 0;
+                background: #393A3A;
+                float: left;
+            }
+            .sy2 {
+                width: 6%;
+                height: 60px;
+                float: left;
+                background-image: url(../img/ly/sy.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 66px 60px;
+                margin-left: 2%;
+            }
+            .jutwo {
+                width: 80%;
+                height: 60px;
+                 background: #393A3A;
+                border-radius: 50px 0 0 50px;
+                margin-left:2%;
+                float: left;
+                .active{
+                    border-bottom: 4px solid #ff0000;
+                    box-sizing: border-box;
+                }
+                img {
+                    float: left;
+                }
+                a{
+                    height:100%;
+                    float:left;
+                    font-size: 18px;
+                    color:white;
+                    padding: 0 10px;
+                    line-height: 60px;
+                    text-decoration: none;
+                    span{
+                       font-size: 18px;
+                    }
+                }
+                .denglu{
+                    width:120px;
+                    height:60px;
+                    margin-left:50px;
+                    float:left;
+                    a{
+                        font-size: 16px;
+                        float:left;
+                        margin-top:2px;
+                    }
+                }
+                input{
+                    width:170px;
+                    height:24px;
+                    border-radius: 7px;
+                    margin-left:20px;
+                    margin-top:16px;
+                    border-color:white;
+                    outline: none;
+                    padding-left: 10px;
+                    box-sizing: border-box;
+                    background: rgba(0,0,0,0);
+                    color: #fff;
+                }
+            }
+        }
+} 
+}
+@media only screen and (min-width:750px){
+    
 .yzf-banner{
     width: 100%;
     height:750px;
     background-image: url(../img/yzf/banner1_01.png);
     background-size:cover;
     background-position:center center;
+    .navmax {
+            width: 100%;
+            height: 60px;
+            position: absolute;
+            top: 34px;
+            left: 50%;
+            margin-left:-50%;
+            overflow: hidden;
+            .juone {
+                width: 10%;
+                height: 60px;
+                border-radius: 0  50px 50px 0;
+                background: #393A3A;
+                float: left;
+            }
+            .sy2 {
+                width: 6%;
+                height: 60px;
+                float: left;
+                background-image: url(../img/ly/sy.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 66px 60px;
+                margin-left: 2%;
+            }
+            .jutwo {
+                width: 80%;
+                height: 60px;
+                 background: #393A3A;
+                border-radius: 50px 0 0 50px;
+                margin-left:2%;
+                float: left;
+                .active{
+                    border-bottom: 4px solid #ff0000;
+                    box-sizing: border-box;
+                }
+                img {
+                    float: left;
+                }
+                a{
+                    height:100%;
+                    float:left;
+                    font-size: 18px;
+                    color:white;
+                    padding: 0 10px;
+                    line-height: 60px;
+                    text-decoration: none;
+                    span{
+                       font-size: 18px;
+                    }
+                }
+                .denglu{
+                    width:120px;
+                    height:60px;
+                    margin-left:50px;
+                    float:left;
+                    a{
+                        font-size: 16px;
+                        float:left;
+                        margin-top:2px;
+                    }
+                }
+                input{
+                    width:170px;
+                    height:24px;
+                    border-radius: 7px;
+                    margin-left:20px;
+                    margin-top:16px;
+                    border-color:white;
+                    outline: none;
+                    padding-left: 10px;
+                    box-sizing: border-box;
+                    background: rgba(0,0,0,0);
+                    color: #fff;
+                }
+            }
+        }
 }
 .box1{
     width:1200px;
-    height:1845px;
+    height:auto;
     position:absolute;
     top:662px;
-    left:75px;
+    left:5.5%;
     background:#fff;
+    overflow: hidden;
     > .yzf-nav{
         width:330px;
         height:100px;
@@ -47,9 +213,9 @@ body{
         margin-top: -14px;
         padding-top:27px;
         >.yzf-font1{
-            width:50px;
-            height:50px;
-            background-image: url(../img/yzf/font_03.png);
+            width:63px;
+            height:63px;
+            background-image: url(../img/yzf/fontsize_03.png);
             margin-top:20px;
             float:left;
         }
@@ -63,7 +229,7 @@ body{
             margin-left:10px;
         }
         >.yzf-wenzi{
-            width:585px;
+            width:60%;
             height:100%;
             float:left;
             margin-left:10px;
@@ -93,7 +259,7 @@ body{
             >h4{
                 font-size:14px;
                 font-family: "微软雅黑";
-                color:#000;
+                color:#666;
                 margin-left:15px;
                 margin-top:14px;
             }
@@ -107,17 +273,16 @@ body{
         }
     }
     > .yzf-list2{
-        width:1020px;
+        width:873px;
         height:200px;
 //      border-top:1px solid #ccc;
-        margin-left:120px;
-        margin-top: -14px;
+        margin-left:165px;
+//      margin-top: -14px;
         padding-top:27px;
-        background:#f6f5f5;
         >.yzf-font2{
-            width:50px;
-            height:50px;
-            background-image: url(../img/yzf/font_07.png);
+            width:63px;
+            height:63px;
+            background-image: url(../img/yzf/fontsize_07.png);
             margin-top:20px;
             float:left;
         }
@@ -125,13 +290,13 @@ body{
             width:216px;
             height:140px;
             background-image:url(../img/yzf/xinwen1_15.png);
-             background-size:cover;
+            background-size:cover;
             background-position: center;
             float:left;
             margin-left:10px;
         }
         >.yzf-wenzi2{
-            width:610px;
+            width:60%;
             height:100%;
             float:left;
             margin-left:10px;
@@ -161,7 +326,7 @@ body{
             >h4{
                 font-size:14px;
                 font-family: "微软雅黑";
-                color:#000;
+                color:#666;
                 margin-left:15px;
                 margin-top:14px;
             }
@@ -177,14 +342,12 @@ body{
     > .yzf-list3{
         width:873px;
         height:200px;
-//      border-top:1px solid #ccc;
         margin-left:165px;
-//      margin-top: -14px;
         padding-top:27px;
         >.yzf-font3{
-            width:50px;
-            height:50px;
-            background-image: url(../img/yzf/font_03.png);
+            width:63px;
+            height:63px;
+            background-image: url(../img/yzf/fontsize_11.png);
             margin-top:20px;
             float:left;
         }
@@ -198,7 +361,7 @@ body{
             margin-left:10px;
         }
         >.yzf-wenzi3{
-            width:585px;
+            width:60%;
             height:100%;
             float:left;
             margin-left:10px;
@@ -228,7 +391,7 @@ body{
             >h4{
                 font-size:14px;
                 font-family: "微软雅黑";
-                color:#000;
+                color:#666;
                 margin-left:15px;
                 margin-top:14px;
             }
@@ -246,12 +409,11 @@ body{
         height:200px;
         border-top:1px solid #ccc;
         margin-left:165px;
-//      margin-top: -14px;
         padding-top:27px;
         >.yzf-font4{
-            width:50px;
-            height:50px;
-            background-image: url(../img/yzf/font_03.png);
+            width:63px;
+            height:63px;
+            background-image: url(../img/yzf/fontsize_14.png);
             margin-top:20px;
             float:left;
         }
@@ -264,8 +426,42 @@ body{
             float:left;
             margin-left:10px;
         }
+        >.yzf-font5{
+            width:63px;
+            height:63px;
+            background-image: url(../img/yzf/fontsize_17.png);
+            margin-top:20px;
+            float:left;
+        }
+        >.yzf-img5{
+            width:216px;
+            height:140px;
+            background-image:url(../img/yzf/xinwen1_26.png);
+             background-size:cover;
+            background-position: center;
+            float:left;
+            margin-left:10px;
+        }
+        >.yzf-font6{
+            width:60px;
+            height:60px;
+            background-image: url(../img/yzf/fontsize_19.png);
+            margin-top:20px;
+            float:left;
+            z-index:1000000;
+        }
+        
+        >.yzf-img6{
+            width:216px;
+            height:140px;
+            background-image:url(../img/yzf/xinwen1_29.png);
+             background-size:cover;
+            background-position: center;
+            float:left;
+            margin-left:10px;
+        }
         >.yzf-wenzi4{
-            width:585px;
+            width:60%;
             height:100%;
             float:left;
             margin-left:10px;
@@ -295,7 +491,7 @@ body{
             >h4{
                 font-size:14px;
                 font-family: "微软雅黑";
-                color:#000;
+                color:#666;
                 margin-left:15px;
                 margin-top:14px;
             }
@@ -308,24 +504,66 @@ body{
             }        
         }
     }
-    >nav{
-     text-align: center;
-      margin-top:75px;  
-    }
+    >.ss{
+            text-align: center;
+            margin-top: 50px;
+            .pagination{
+                border-radius: 50%; 
+                display: inline-block;
+                text-align: center;
+                li{
+                    border-radius: 50%;
+                    a{
+                        margin: 0 5px;
+                       border-radius: 50%; 
+                       color: #333;
+                       font-size: 18px;
+                    }
+                    input{
+                        width:60px;
+                        padding: 10px 16px;
+                        font-size: 18px;
+                        line-height: 1.3333;
+                        border-radius: 50%; 
+                        border: none;
+                        border: 1px solid #ddd;
+                        text-align: center;
+                        outline: none;
+                        color: #333;
+                    }
+                }
+                >li:nth-last-child{
+                    >a{
+                        border-radius: 50%;
+                        span{
+                            font-size: 18px;
+                        }
+                    }
+                }
+                li:nth-child(1){
+                    a{
+                        border-radius: 50%;
+                    }
+                }
+                
+                .active a{
+                    background: #fb263f;
+                    border: 4px solid #ffb8b8;
+                }
+            }
+            .pagination-lg{
+                > li:last-child{
+                    > a{
+                        border-radius: 50%;
+                    }
+                }
+            }  
+        }
 }
-
-//@mixin list($width3,$left){
-//  width:#{};
-//  height:190px;
-//  border-top:1px solid #ccc;
-//  margin-left:165px;
-//  margin-top: -14px;
-//  padding-top:27px;
-//}
-//$width3:873px;
-.yzf-foot{
-    width:315px;
-    height:150px;
-    background-image:url(../img/yzf/footer_03.png);
-    margin: 0 auto;
+    .yzf-foot{
+        width:315px;
+        height:150px;
+        background-image:url(../img/yzf/footer_03.png);
+        margin: 0 auto;
+}
 }
