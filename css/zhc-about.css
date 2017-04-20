@@ -29,9 +29,48 @@
       header .navmin div:last-child {
         position: relative; }
         header .navmin div:last-child ul {
+          display: none;
           position: absolute;
           top: 80px;
-          right: 0; }
+          right: -30px;
+          width: 280px;
+          height: auto; }
+          header .navmin div:last-child ul li {
+            width: 100%;
+            height: 90px;
+            padding: 16px 0;
+            box-sizing: border-box;
+            position: relative; }
+            header .navmin div:last-child ul li a {
+              display: block;
+              width: 100%;
+              height: 100%; }
+              header .navmin div:last-child ul li a:hover {
+                text-decoration: none; }
+              header .navmin div:last-child ul li a h1 {
+                margin: 0;
+                font-size: 30px;
+                color: #fff;
+                opacity: 0.9;
+                width: 100%;
+                height: auto; }
+              header .navmin div:last-child ul li a p {
+                margin: 10px 0;
+                width: 100%;
+                height: auto;
+                color: #fff;
+                font-size: 14px; }
+              header .navmin div:last-child ul li a div {
+                width: 100%;
+                height: 5px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                line-height: 5px; }
+                header .navmin div:last-child ul li a div img {
+                  width: 100%; }
+                header .navmin div:last-child ul li a div .active {
+                  display: none; }
   article {
     width: 100%;
     height: auto;

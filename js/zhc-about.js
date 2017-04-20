@@ -5,4 +5,8 @@ $(document).ready(function(){
 		$('.zhc-footer').css('marginTop','height')
 	})
 	
+	$('.navmin > div').last().click(function(){
+		$('.navmin > div ul').toggle(200)
+	})
+	
 })
