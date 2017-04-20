@@ -19,16 +19,16 @@
             <div class="sy2"></div>
             <div class="jutwo">
                 <img src="../img/ly/sy3.png" alt="">
-                <a href=""><span>首页</span></a>
-                <a href="" >关于我们</a>
-                <a href="">产品信息</a>
-                <a href="" class="active">新闻中心</a>
+                <a href="ly.html"><span>首页</span></a>
+                <a href="zhc-about.html" >关于我们</a>
+                <a href="zl-cpxx.html">产品信息</a>
+                <a href="javascript:;" class="active">新闻中心</a>
                 <a href="javascript:;">私人订制</a>
                 <a href="javascript:;">售后服务</a>
-                <a href="">联系我们</a>
+                <a href="zhc-contact.html">联系我们</a>
                 <section class="denglu">
-                    <a href="">登陆</a>
-                    <a href="">注册</a>
+                    <a href="javascript">登陆</a>
+                    <a href="javascript">注册</a>
                 </section>
                 <input type="text">
             </div>
@@ -183,7 +183,6 @@
 						        <span aria-hidden="true">NEXT</span>
 						    </a>
 					    </li>
-					    <li><input type="text" name="text" placeholder="1"></li>
 					    <li><a href="javascript:;">GO</a></li>
 				  </ul>
 			</nav>
@@ -217,6 +216,19 @@ $(document).ready(function(){
 	$('.zhc-fot a').click(function(){
 		let back = $(".zhc-fot").offset().top;
     	$("html,body").animate({scrollTop: 0}, 500);   //带滑动效果的跳转
+	})
+	
+	$('.yzf-list1').click(function(){
+		location.href=('yzf-xinwen2.html');
+	})
+	$('.yzf-list2').click(function(){
+		location.href=('yzf-xinwen2.html');
+	})
+	$('.yzf-list3').click(function(){
+		location.href=('yzf-xinwen2.html');
+	})
+	$('.yzf-list4').click(function(){
+		location.href=('yzf-xinwen2.html');
 	})
 })
 </script>
