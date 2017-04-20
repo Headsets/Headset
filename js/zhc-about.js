@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	let width=$(window).width();
-//	$(window).resize(function(){
+	$(window).resize(function(){
 		
-//		if(width>750){
+		if(width>750){
 			$('.zhc-box').hover(function(){
 				console.log($('.zhc-box .zhc-words'))
 				$('.zhc-box .zhc-words').fadeIn()
@@ -15,7 +15,7 @@ $(document).ready(function(){
 			},function(){
 				$('.zhc-i img').css('transform','scale(1)')
 			})
-//		}
-//	})
+		}
+	})
 	
 })

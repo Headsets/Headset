@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 	//	导航栏划入划出
-	$('.navmin > div').last()[0].addEventListener('touchstart',function(){
+	$('.navmin > div').last().click(function(){
 		$('.navmin > div ul').toggle(200)
 	})
 	
