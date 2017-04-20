@@ -76,11 +76,8 @@
     height: auto;
     padding: 0 24px;
     box-sizing: border-box;
-    position: absolute;
-    top: 758px;
-    left: 0;
     overflow: hidden;
-    z-index: 1; }
+    margin: 0 auto; }
     article main {
       width: 100%;
       height: auto;
@@ -94,7 +91,7 @@
         article main .zhc-floor1 .zhc-img {
           text-align: center; }
           article main .zhc-floor1 .zhc-img img {
-            height: 100%; }
+            width: 80%; }
         article main .zhc-floor1 .zhc-imgs {
           width: 100%;
           height: 88px;
@@ -146,11 +143,10 @@
       width: 100%;
       height: auto; }
       article .zhc-floor2 .zhc-top {
-        height: 220px;
+        height: auto;
         width: 100%; }
         article .zhc-floor2 .zhc-top img {
-          width: 100%;
-          height: 100%; }
+          width: 100%; }
       article .zhc-floor2 .zhc-bottom {
         width: 100%;
         height: auto;
@@ -158,7 +154,7 @@
         article .zhc-floor2 .zhc-bottom div {
           float: left;
           width: 33.333%;
-          height: 280px; }
+          height: 180px; }
           article .zhc-floor2 .zhc-bottom div img {
             width: 100%;
             height: 100%; }
@@ -196,7 +192,7 @@
           article .zhc-floor3 ul li h2 {
             font-size: 14px;
             width: 100%;
-            height: 30px;
+            height: auto;
             line-height: 30px;
             color: #222;
             text-align: center; }
@@ -219,23 +215,23 @@
       height: auto; }
       article .zhc-floor4 .zhc-box {
         width: 100%;
-        height: 270px;
-        position: relative; }
+        height: auto;
+        position: relative;
+        overflow: hidden; }
         article .zhc-floor4 .zhc-box .zhc-im {
           float: left;
           width: 33.3333%;
-          height: 270px; }
+          height: auto; }
           article .zhc-floor4 .zhc-box .zhc-im img {
-            width: 100%;
-            height: 270px; }
+            width: 100%; }
         article .zhc-floor4 .zhc-box .zhc-words {
-          width: 350px;
-          height: 104px;
+          width: 60%;
+          height: auto;
           position: absolute;
           top: 50%;
           left: 50%;
-          margin-left: -175px;
-          margin-top: -52px;
+          margin-left: -30%;
+          margin-top: -10%;
           opacity: 0.8; }
           article .zhc-floor4 .zhc-box .zhc-words img {
             width: 100%; }
@@ -278,7 +274,7 @@
         color: #999; }
     article .zhc-style-word {
       width: 100%;
-      height: 30px;
+      height: auto;
       padding: 0 34px;
       margin-top: 50px;
       box-sizing: border-box;
@@ -299,22 +295,22 @@
         border-left: 1px solid #999; }
     article .zhc-i {
       width: 100%;
-      height: 204px;
-      margin: 50px 0;
-      background: url(../img/zhc/zhc-abour1.png);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain; }
+      height: auto;
+      padding: 80px 10%;
+      box-sizing: border-box;
+      text-align: center; }
+      article .zhc-i img {
+        width: 100%; }
     article .zhc-end {
       width: 100%;
-      height: 200px;
-      background: url(../img/zhc/zhc-abend_22.png);
-      background-position: center center;
-      background-repeat: no-repeat; }
+      height: auto;
+      padding: 50px 10%; }
+      article .zhc-end img {
+        width: 100%; }
   .zhc-footer {
     display: none; }
   .zhc-footermin {
-    margin-top: 3700px;
+    margin-top: 10px;
     height: auto;
     width: 100%;
     background: url(../img/zhc/zhc-footermin_02.png);
@@ -325,11 +321,10 @@
     .zhc-footermin .zhc-fotmin {
       width: 100%;
       text-align: center;
-      padding-top: 100px;
-      height: auto; }
+      height: auto;
+      padding: 30px 35%; }
       .zhc-footermin .zhc-fotmin img {
-        height: 88px;
-        width: 420px; }
+        width: 100%; }
     .zhc-footermin p {
       padding: 15px 0;
       width: 60%;
@@ -448,24 +443,18 @@
           background: transparent;
           color: #fff; }
   article {
-    width: 1200px;
+    width: 82%;
     height: auto;
     margin: 0 auto;
-    position: absolute;
-    margin-top: -84px;
-    left: 50%;
-    margin-left: -600px;
-    background: #fff;
-    z-index: 1; }
+    background: #fff; }
     article main {
-      width: 1200px;
+      width: 82%;
       height: auto;
       margin: 0 auto; }
       article main .zhc-floor1 {
         width: 100%;
-        height: 910px;
+        height: auto;
         background: #fff;
-        padding: 0 98px;
         box-sizing: border-box; }
         article main .zhc-floor1 .zhc-img {
           width: 100%;
@@ -491,19 +480,20 @@
           line-height: 24px; }
         article main .zhc-floor1 .zhc-tiao {
           height: 1px;
+          margin: 50px 0;
           width: 100%;
           background: url(../img/zhc/zhc-tiao_08.png);
           background-position: center;
           background-repeat: no-repeat; }
         article main .zhc-floor1 .zhc-english {
           margin: 50px 0;
-          height: 140px;
+          height: auto;
           width: 100%;
           text-align: center; }
           article main .zhc-floor1 .zhc-english p {
             display: inline-block;
             text-align: center;
-            width: 710px;
+            width: 90%;
             height: 36px;
             margin: 0; }
           article main .zhc-floor1 .zhc-english span {
@@ -522,24 +512,23 @@
             margin: 0;
             font-weight: normal; }
     article .zhc-floor2 {
-      width: 1200px;
-      height: 880px;
+      width: 100%;
+      height: auto;
       margin: 0 auto; }
       article .zhc-floor2 .zhc-top {
         width: 100%;
-        height: 380px; }
+        height: auto; }
         article .zhc-floor2 .zhc-top img {
-          width: 100%;
-          height: 100%; }
+          width: 100%; }
       article .zhc-floor2 .zhc-bottom {
-        height: 500px;
+        height: auto;
         width: 100%; }
         article .zhc-floor2 .zhc-bottom div {
           float: left;
-          height: 100%;
+          height: auto;
           width: 33.33333333%; }
           article .zhc-floor2 .zhc-bottom div img {
-            height: 100%;
+            height: 300px;
             width: 100%; }
     article .zhc-imgss {
       width: 100%;
@@ -549,8 +538,8 @@
       background-position: center;
       background-repeat: no-repeat; }
     article .zhc-floor3 {
-      width: 1200px;
-      height: 480px;
+      width: 100%;
+      height: auto;
       margin: 0 auto; }
       article .zhc-floor3 ul {
         width: 100%;
@@ -570,8 +559,7 @@
             line-height: 60px;
             margin: 0; }
           article .zhc-floor3 ul li img {
-            width: 100%;
-            height: 288px; }
+            width: 100%; }
           article .zhc-floor3 ul li h2 {
             font-size: 14px;
             width: 100%;
@@ -593,30 +581,31 @@
       background-position: center;
       background-repeat: no-repeat; }
     article .zhc-floor4 {
-      width: 1200px;
-      height: 480px;
+      width: 100%;
+      height: auto;
       margin: 0 auto; }
       article .zhc-floor4 .zhc-box {
         width: 100%;
         height: 100%;
-        position: relative; }
+        position: relative;
+        overflow: hidden; }
         article .zhc-floor4 .zhc-box .zhc-im {
           float: left;
           width: 33.333%;
           height: 100%; }
           article .zhc-floor4 .zhc-box .zhc-im img {
-            width: 100%;
-            height: 100%; }
+            width: 100%; }
         article .zhc-floor4 .zhc-box .zhc-words {
-          width: 554px;
-          height: 162px;
+          width: 50%;
           position: absolute;
           top: 50%;
           left: 50%;
           margin: 0;
           opacity: 0.8;
-          margin-top: -81px;
-          margin-left: -277px; }
+          margin-top: -5%;
+          margin-left: -25%; }
+          article .zhc-floor4 .zhc-box .zhc-words img {
+            width: 100%; }
     article .zhc-imgssss {
       width: 100%;
       height: 120px;
@@ -654,8 +643,9 @@
         text-align: center;
         color: #999; }
     article .zhc-style-word {
+      overflow: hidden;
       width: 100%;
-      height: 30px;
+      height: auto;
       margin: 0 auto;
       padding: 0 136px;
       box-sizing: border-box;
@@ -676,18 +666,22 @@
       article .zhc-style-word li:first-child {
         border-left: 1px solid #a0a0a0; }
     article .zhc-i {
+      position: relative;
+      z-index: 33;
+      background: #fff;
       width: 100%;
-      height: 440px;
-      margin: 50px 0;
-      background: url(../img/zhc/zhc-abour1.png);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 70%; }
+      height: auto;
+      margin-bottom: -50px;
+      padding: 80px 10%;
+      box-sizing: border-box;
+      text-align: center; }
+      article .zhc-i img {
+        width: 100%; }
+    article .zhc-end {
+      display: none; }
   .zhc-footer {
-    margin-top: 4100px;
     width: 100%;
     height: auto;
-    position: relative;
     background: url(../img/zhc/zhc-footers_07.png);
     background-position: center;
     background-size: cover;
@@ -702,7 +696,7 @@
       .zhc-footer .zhc-fot img {
         height: 100%; }
     .zhc-footer .zhc-fots {
-      width: 1200px;
+      width: 100%;
       height: auto;
       margin: 0 auto;
       overflow: hidden; }
@@ -716,8 +710,8 @@
           width: 120px;
           margin: 40px; }
         .zhc-footer .zhc-fots div:first-child div {
-          height: 200px;
-          width: 340px; }
+          height: 100%;
+          width: 50%; }
           .zhc-footer .zhc-fots div:first-child div h1 {
             width: 100%;
             margin: 0;
@@ -763,4 +757,5 @@
       padding: 30px 0;
       border-top: 1px solid #fff;
       text-align: center;
-      color: #fff; } }
+      color: #fff;
+      margin-top: 20px; } }
