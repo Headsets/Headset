@@ -89,7 +89,6 @@
       height: auto;
       background: #fff; }
       article main .zhc-floor1 {
-        padding: 0 34px;
         padding-top: 40px;
         box-sizing: border-box;
         width: 100%;
@@ -141,7 +140,10 @@
           article main .zhc-floor1 .zhc-english h6 {
             text-align: center;
             height: auto;
-            margin: 0; }
+            display: inline-block;
+            margin: 0;
+            font-size: 12px;
+            line-height: 36px; }
           article main .zhc-floor1 .zhc-english b {
             display: inline-block;
             text-align: center;
@@ -162,10 +164,9 @@
         article .zhc-floor2 .zhc-bottom div {
           float: left;
           width: 33.333%;
-          height: 180px; }
+          height: auto; }
           article .zhc-floor2 .zhc-bottom div img {
-            width: 100%;
-            height: 100%; }
+            width: 100%; }
     article .zhc-imgss {
       width: 100%;
       height: auto;
@@ -408,7 +409,8 @@
         background-image: url(../img/ly/sy.png);
         background-position: center;
         background-size: 66px 60px;
-        margin-left: 2%; }
+        margin-left: 2%;
+        background-repeat: no-repeat; }
       header .navmax .jutwo {
         width: 80%;
         height: 60px;
@@ -553,7 +555,6 @@
           height: auto;
           width: 33.33333333%; }
           article .zhc-floor2 .zhc-bottom div img {
-            height: 300px;
             width: 100%; }
     article .zhc-imgss {
       width: 100%;
@@ -579,7 +580,7 @@
           width: 328px;
           height: 100%; }
           article .zhc-floor3 ul li h1 {
-            font-size: 24px;
+            font-size: 18px;
             color: #ff3636;
             width: 100%;
             height: 60px;
@@ -625,12 +626,12 @@
           article .zhc-floor4 .zhc-box .zhc-im img {
             width: 100%; }
         article .zhc-floor4 .zhc-box .zhc-words {
+          display: none;
           width: 50%;
           position: absolute;
           top: 50%;
           left: 50%;
           margin: 0;
-          opacity: 0.8;
           margin-top: -5%;
           margin-left: -25%; }
           article .zhc-floor4 .zhc-box .zhc-words img {
@@ -708,7 +709,8 @@
       box-sizing: border-box;
       text-align: center; }
       article .zhc-i img {
-        width: 100%; }
+        width: 100%;
+        transition: transform 1s; }
     article .zhc-end {
       display: none; }
   .zhc-footer {

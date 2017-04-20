@@ -111,7 +111,7 @@
             height: auto;
             background: #fff;
             .zhc-floor1{
-                padding: 0 34px;
+//              padding: 0 34px;
                 padding-top:40px ;
                 box-sizing: border-box;
                 width: 100%;
@@ -171,7 +171,10 @@
                     h6{
                         text-align: center;
                         height: auto;
+                        display: inline-block;
                         margin: 0;
+                        font-size: 12px;
+                        line-height: 36px;
                     }
                     b{
                        display: inline-block;
@@ -199,10 +202,9 @@
                 div{
                     float: left;
                     width: 33.333%;
-                    height: 180px;
+                    height: auto;
                     img{
-                        width: 100%;
-                        height: 100%;
+                        width:100%
                     }
                 }
             }
@@ -502,6 +504,7 @@ header{
                 background-position: center;
                 background-size: 66px 60px;
                 margin-left: 2%;
+                background-repeat: no-repeat;
             }
             .jutwo {
                 width: 80%;
@@ -676,7 +679,6 @@ article{
                 height: auto;
                 width: 33.33333333%;
                 img{
-                    height: 300px;
                     width:100%;
                 }
             }
@@ -709,7 +711,7 @@ article{
                 width: 328px;
                 height: 100%;
                 h1{
-                    font-size: 24px;
+                    font-size: 18px;
                     color: #ff3636;
                     width: 100%;
                     height: 60px;
@@ -766,12 +768,12 @@ article{
                 }
             }
             .zhc-words{
+                display: none;
                 width: 50%;
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 margin: 0;
-                opacity:0.8;
                 margin-top: -5%;
                 margin-left: -25%;
                 img{
@@ -866,6 +868,7 @@ article{
         text-align: center;
         img{
             width: 100%;
+            transition: transform 1s;
         }
     }
     .zhc-end{

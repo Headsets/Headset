@@ -1,12 +1,21 @@
 $(document).ready(function(){
-	$(window).resize(function(){
-		let height=parseInt($('article').css('height'))
-		console.log(height)
-		$('.zhc-footer').css('marginTop','height')
-	})
-	
-	$('.navmin > div').last().click(function(){
-		$('.navmin > div ul').toggle(200)
-	})
+	let width=$(window).width();
+//	$(window).resize(function(){
+		
+//		if(width>750){
+			$('.zhc-box').hover(function(){
+				console.log($('.zhc-box .zhc-words'))
+				$('.zhc-box .zhc-words').fadeIn()
+			},function(){
+				$('.zhc-box .zhc-words').fadeOut()
+			})
+		
+			$('.zhc-i img').hover(function(){
+				$('.zhc-i img').css({transform:'scaleX(0.6)'})
+			},function(){
+				$('.zhc-i img').css('transform','scale(1)')
+			})
+//		}
+//	})
 	
 })

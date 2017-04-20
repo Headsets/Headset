@@ -7,19 +7,96 @@
     }
     header{
         width: 100%;
-        height: 750px;
+        height:auto;
         .zhc-conbox{
             width: 100%;
-            height: 100%;
-            background: url(../img/zhc/zhc-concat_02.png);
-            background-position: center center;
-            background-size: cover;
-            img{
+            img:first-child{
                 display: none;
             }
+            img:last-child{
+                display: block;
+                width: 100%;
+            }
         }
-        .navmax{
-            display: none;
+        .navmin{
+            width: 100%;
+            height: 40px;
+            padding: 0 24px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            z-index: 2;
+            div{
+                width: 40px;
+                height: 40px;
+                img{
+                    height: 100%;
+                }
+            }
+            div:last-child{
+                position: relative;
+                ul{
+                    display: none;
+                    position: absolute;
+                    top: 40px;
+                    right: -30px;
+                    width: 150px;
+                    height: auto;
+                    li{
+                        width: 100%;
+                        height: auto;
+                        padding: 6px 0;
+                        box-sizing: border-box;
+                        position: relative;
+                        a{
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            &:active{
+                                text-decoration: none;
+                                opacity: .9;
+                            }
+                            h1{
+                                margin: 0;
+                                font-size: 16px;
+                                color: #fff;
+                                opacity: 0.9;
+                                width: 100%;
+                                height: auto;
+                                font-weight: normal;
+                            }
+                            p{
+                                margin: 0;
+                                margin-top: 5px;
+                                width: 100%;
+                                height: auto;
+                                color: #fff;
+                                font-size: 10px;
+                                font-weight: normal;
+                            }
+                            div{
+                                width: 100%;
+                                height: 4px;
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                line-height: 5px;
+                                img{
+                                    width: 100%;
+                                }
+                                .active{
+                                    display: none;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            
         }
     }
     
@@ -34,28 +111,26 @@
         position: relative;
         background: #fff;
         .zhc-tiao{
-            width: 100%;
-            height: 40px;
-            background: #fff;
-            position: absolute;
-            top: -40px;
-            left: 0;
+            display: none;
         }
         .zhc-floor1{
             width: 100%;
             height: auto;
             .zhc-biao1{
                 width: 100%;
-                height: 150px;
-                background: url(../img/zhc/zhc-biao1_04.png);
-                background-position: center;
-                background-repeat: no-repeat;
+                height: auto;
+                padding: 0 10%;
+                padding-top: 30px;
+                img{
+                    width: 100%;
+                }
             }
             ul{
                 width: 100%;
                 margin: 50px 0;
                 li{
                     text-align: center;
+                    margin: 10px 0;
                     img{
                         height: 100%;
                     }
@@ -271,9 +346,9 @@
             width: 100%;
             height: auto;
             text-align: center;
+            padding: 0 20%;
             img{
-                height: auto;
-                width: auto;
+                width: 100%;
             }
         }
     }
@@ -290,11 +365,12 @@
         .zhc-fotmin{
             width: 100%;
             text-align: center;
-            padding-top: 100px;
+            padding: 0 35%;
+            padding-top: 50px;
             height: auto;
+            box-sizing: border-box;
                 img{
-                    height: 88px;
-                    width: 420px;
+                    width: 100%;
                 }
         }
         p{
@@ -345,17 +421,24 @@ body{
     .zhc-footermin{
         display: none;
     }
+    .navmin{
+        display: none;
+    }
 header{
     width: 100%;
     height: auto;
     .zhc-conbox{
         width: 100%;
         height: 100%;
-        img{
+        img:first-child{
             width: 100%;
+            display: block;
+        }
+        img:last-child{
+            display: none;
         }
     }
-    nav {
+    .zhc-lg{
             width: 100%;
             height: 60px;
             position: absolute;
@@ -378,6 +461,7 @@ header{
                 background-position: center;
                 background-size: 66px 60px;
                 margin-left: 2%;
+                background-repeat: no-repeat;
             }
             .jutwo {
                 width: 80%;
@@ -403,6 +487,9 @@ header{
                     text-decoration: none;
                     span{
                        font-size: 18px;
+                    }
+                    &:hover{
+                        opacity: 0.9;
                     }
                 }
                 .denglu{
@@ -456,18 +543,22 @@ main{
             height: auto;
             .zhc-biao1{
                 width: 100%;
-                height: 150px;
-                background: url(../img/zhc/zhc-biao1_04.png);
-                background-position: center;
-                background-repeat: no-repeat;
-            }
+                text-align: center;
+                padding: 0 25%;
+                box-sizing: border-box;
+                img{
+                    width: 100%;
+                }
+            } 
             ul{
                 width: 100%;
                 margin: 50px 0;
                 li{
+                    margin: 10px 0;
                     text-align: center;
                     img{
                         height: 100%;
+                        transition: transform 0.3s;
                     }
                     p{
                         margin-top: 20px;
@@ -701,12 +792,12 @@ main{
             }
         }
         .zhc-fots{
-            width: 1200px;
+            width:100%;
             height: auto;
             margin: 0 auto;
             overflow: hidden;
             div:first-child{
-                width: 45%;
+                width: 40%;
                 height: 200px;
                 float: left;
                 img{
@@ -716,8 +807,9 @@ main{
                     margin: 40px;
                 }
                 div{
+                    float: left;
                     height: 200px;
-                    width: 340px;
+                    width: 50%;
                     h1{
                         width: 100%;
                         margin: 0;
