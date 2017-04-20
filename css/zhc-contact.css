@@ -14,6 +14,8 @@
       background-size: cover; }
       header .zhc-conbox img {
         display: none; }
+    header .navmax {
+      display: none; }
   main {
     width: 100%;
     height: auto;
