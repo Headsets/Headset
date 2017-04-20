@@ -12,6 +12,7 @@
 	<script type="text/javascript" src="../js/bootstrap.js" ></script>
 	<script type="text/javascript" src="../js/zhc-contact.js" ></script>
 	<script type="text/javascript" src="../js/common.js" ></script>
+	<script type="text/javascript" src="../js/jquery.validate.js" ></script>
 	<body>
 		<header>
 			<div class="zhc-conbox">
@@ -124,12 +125,12 @@
 				<section class="zhc-map">
 					<img src="../img/zhc/zhc-map_20.png" />
 				</section>
-				<form class="container">
+				<form class="container" id="form">
 					<div class="col-lg-4">
-						<p><input type="text" name="name" placeholder="NAME"></p>
-						<p><input type="email" name="email" placeholder="EMAIL"></p>
-						<p><input type="text" name="mob" placeholder="MOB"></p>
-						<button>提交留言</button> <button>清空</button>
+						<p><input type="text" name="name" placeholder="NAME" id="name"></p>
+						<p><input type="email" name="email" placeholder="EMAIL" id="email"></p>
+						<p><input type="text" name="mob" placeholder="MOB" id="mob"></p>
+						<button>提交留言</button><button>清空</button>
 					</div>
 					<div class="col-lg-8">
 						<textarea name="message"></textarea>

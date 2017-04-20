@@ -400,7 +400,7 @@
         width: 10%;
         height: 60px;
         border-radius: 0  50px 50px 0;
-        background: #393A3A;
+        background: rgba(255, 255, 255, 0.3);
         float: left; }
       header .navmax .sy2 {
         width: 6%;
@@ -414,7 +414,7 @@
       header .navmax .jutwo {
         width: 80%;
         height: 60px;
-        background: #393A3A;
+        background: rgba(255, 255, 255, 0.3);
         border-radius: 50px 0 0 50px;
         margin-left: 2%;
         float: left; }
@@ -451,12 +451,13 @@
           border-radius: 7px;
           margin-left: 20px;
           margin-top: 16px;
-          border-color: white;
           outline: none;
           padding-left: 10px;
           box-sizing: border-box;
           background: transparent;
-          color: #fff; }
+          color: #fff;
+          border: none;
+          border: 1px solid #fff; }
   article {
     width: 82%;
     height: auto;
