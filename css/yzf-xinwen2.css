@@ -128,8 +128,8 @@ body {
       background-position: center;
       margin: 5px auto auto auto; }
     .box1 > .yzf-biaoti2 {
-      width: 90%;
-      height: 90px;
+      width: 100%;
+      height: 80px;
       background-image: url(../img/yzf/xinwen2_09.png);
       background-size: 100% 100%;
       background-position: center;
@@ -234,17 +234,19 @@ body {
           .box1 .yzf-list1 > .center > .icon > .fonttwo {
             display: block;
             margin-top: 8px;
-            float: left; }
+            float: left;
+            margin-left: 0.35rem; }
           .box1 .yzf-list1 > .center > .icon > .fontthree {
             display: block;
-            float: left; }
+            float: left;
+            margin-left: 1.2rem; }
           .box1 .yzf-list1 > .center > .icon > .fontfour {
             display: block;
             margin-top: 8px;
             float: left;
-            margin-left: 0.15rem; }
+            margin-left: 0.35rem; }
           .box1 .yzf-list1 > .center > .icon > .fontfive {
-            display: block;
+            display: none;
             width: 15px;
             height: 15px;
             border-radius: 50%;
@@ -253,7 +255,7 @@ body {
             margin-top: 8px;
             margin-right: 0.15rem; }
           .box1 .yzf-list1 > .center > .icon > .fontsix {
-            display: block;
+            display: none;
             margin-top: 8px;
             float: left;
             margin-left: 0.05rem; }
