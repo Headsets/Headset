@@ -5,17 +5,79 @@
     display: none; }
   header {
     width: 100%;
-    height: 750px; }
+    height: auto; }
     header .zhc-conbox {
-      width: 100%;
-      height: 100%;
-      background: url(../img/zhc/zhc-concat_02.png);
-      background-position: center center;
-      background-size: cover; }
-      header .zhc-conbox img {
+      width: 100%; }
+      header .zhc-conbox img:first-child {
         display: none; }
-    header .navmax {
-      display: none; }
+      header .zhc-conbox img:last-child {
+        display: block;
+        width: 100%; }
+    header .navmin {
+      width: 100%;
+      height: 40px;
+      padding: 0 24px;
+      box-sizing: border-box;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      display: flex;
+      justify-content: space-between;
+      z-index: 2; }
+      header .navmin div {
+        width: 40px;
+        height: 40px; }
+        header .navmin div img {
+          height: 100%; }
+      header .navmin div:last-child {
+        position: relative; }
+        header .navmin div:last-child ul {
+          display: none;
+          position: absolute;
+          top: 40px;
+          right: -30px;
+          width: 150px;
+          height: auto; }
+          header .navmin div:last-child ul li {
+            width: 100%;
+            height: auto;
+            padding: 6px 0;
+            box-sizing: border-box;
+            position: relative; }
+            header .navmin div:last-child ul li a {
+              display: block;
+              width: 100%;
+              height: 100%; }
+              header .navmin div:last-child ul li a:active {
+                text-decoration: none;
+                opacity: .9; }
+              header .navmin div:last-child ul li a h1 {
+                margin: 0;
+                font-size: 16px;
+                color: #fff;
+                opacity: 0.9;
+                width: 100%;
+                height: auto;
+                font-weight: normal; }
+              header .navmin div:last-child ul li a p {
+                margin: 0;
+                margin-top: 5px;
+                width: 100%;
+                height: auto;
+                color: #fff;
+                font-size: 10px;
+                font-weight: normal; }
+              header .navmin div:last-child ul li a div {
+                width: 100%;
+                height: 4px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                line-height: 5px; }
+                header .navmin div:last-child ul li a div img {
+                  width: 100%; }
+                header .navmin div:last-child ul li a div .active {
+                  display: none; }
   main {
     width: 100%;
     height: auto;
@@ -27,26 +89,23 @@
       position: relative;
       background: #fff; }
       main article .zhc-tiao {
-        width: 100%;
-        height: 40px;
-        background: #fff;
-        position: absolute;
-        top: -40px;
-        left: 0; }
+        display: none; }
       main article .zhc-floor1 {
         width: 100%;
         height: auto; }
         main article .zhc-floor1 .zhc-biao1 {
           width: 100%;
-          height: 150px;
-          background: url(../img/zhc/zhc-biao1_04.png);
-          background-position: center;
-          background-repeat: no-repeat; }
+          height: auto;
+          padding: 0 10%;
+          padding-top: 30px; }
+          main article .zhc-floor1 .zhc-biao1 img {
+            width: 100%; }
         main article .zhc-floor1 ul {
           width: 100%;
           margin: 50px 0; }
           main article .zhc-floor1 ul li {
-            text-align: center; }
+            text-align: center;
+            margin: 10px 0; }
             main article .zhc-floor1 ul li img {
               height: 100%; }
             main article .zhc-floor1 ul li p {
@@ -77,6 +136,9 @@
           main article form.container div p {
             width: 100%;
             height: 30px; }
+            main article form.container div p div {
+              width: 100%;
+              height: 16px; }
             main article form.container div p input {
               height: 100%;
               width: 100%;
@@ -151,8 +213,8 @@
         main article .container .zhc-gly {
           width: 100%;
           height: auto;
-          padding: 15px 0;
-          padding-left: 50px;
+          padding: 15px 15px 15px 50px;
+          box-sizing: border-box;
           overflow: hidden;
           border-bottom: 1px solid #999; }
           main article .container .zhc-gly div:first-child {
@@ -208,10 +270,10 @@
       main article .zhc-coend {
         width: 100%;
         height: auto;
-        text-align: center; }
+        text-align: center;
+        padding: 0 20%; }
         main article .zhc-coend img {
-          height: auto;
-          width: auto; }
+          width: 100%; }
   .zhc-footermin {
     height: auto;
     width: 100%;
@@ -223,11 +285,12 @@
     .zhc-footermin .zhc-fotmin {
       width: 100%;
       text-align: center;
-      padding-top: 100px;
-      height: auto; }
+      padding: 0 35%;
+      padding-top: 50px;
+      height: auto;
+      box-sizing: border-box; }
       .zhc-footermin .zhc-fotmin img {
-        height: 88px;
-        width: 420px; }
+        width: 100%; }
     .zhc-footermin p {
       padding: 15px 0;
       width: 60%;
@@ -268,15 +331,20 @@ body {
 @media only screen and (min-width: 750px) {
   .zhc-footermin {
     display: none; }
+  .navmin {
+    display: none; }
   header {
     width: 100%;
     height: auto; }
     header .zhc-conbox {
       width: 100%;
       height: 100%; }
-      header .zhc-conbox img {
-        width: 100%; }
-    header nav {
+      header .zhc-conbox img:first-child {
+        width: 100%;
+        display: block; }
+      header .zhc-conbox img:last-child {
+        display: none; }
+    header .zhc-lg {
       width: 100%;
       height: 60px;
       position: absolute;
@@ -284,33 +352,34 @@ body {
       left: 50%;
       margin-left: -50%;
       overflow: hidden; }
-      header nav .juone {
+      header .zhc-lg .juone {
         width: 10%;
         height: 60px;
         border-radius: 0  50px 50px 0;
-        background: #393A3A;
+        background: rgba(255, 255, 255, 0.3);
         float: left; }
-      header nav .sy2 {
+      header .zhc-lg .sy2 {
         width: 6%;
         height: 60px;
         float: left;
         background-image: url(../img/ly/sy.png);
         background-position: center;
         background-size: 66px 60px;
-        margin-left: 2%; }
-      header nav .jutwo {
+        margin-left: 2%;
+        background-repeat: no-repeat; }
+      header .zhc-lg .jutwo {
         width: 80%;
         height: 60px;
-        background: #393A3A;
+        background: rgba(255, 255, 255, 0.3);
         border-radius: 50px 0 0 50px;
         margin-left: 2%;
         float: left; }
-        header nav .jutwo .active {
+        header .zhc-lg .jutwo .active {
           border-bottom: 4px solid #ff0000;
           box-sizing: border-box; }
-        header nav .jutwo img {
+        header .zhc-lg .jutwo img {
           float: left; }
-        header nav .jutwo a {
+        header .zhc-lg .jutwo a {
           height: 100%;
           float: left;
           font-size: 18px;
@@ -318,29 +387,32 @@ body {
           padding: 0 10px;
           line-height: 60px;
           text-decoration: none; }
-          header nav .jutwo a span {
+          header .zhc-lg .jutwo a span {
             font-size: 18px; }
-        header nav .jutwo .denglu {
+          header .zhc-lg .jutwo a:hover {
+            opacity: 0.9; }
+        header .zhc-lg .jutwo .denglu {
           width: 120px;
           height: 60px;
           margin-left: 50px;
           float: left; }
-          header nav .jutwo .denglu a {
+          header .zhc-lg .jutwo .denglu a {
             font-size: 16px;
             float: left;
             margin-top: 2px; }
-        header nav .jutwo input {
+        header .zhc-lg .jutwo input {
           width: 170px;
           height: 24px;
           border-radius: 7px;
           margin-left: 20px;
           margin-top: 16px;
-          border-color: white;
           outline: none;
           color: #fff;
           padding-left: 10px;
           box-sizing: border-box;
-          background: transparent; }
+          background: transparent;
+          border: none;
+          border: 1px solid #fff; }
   main {
     width: 82%;
     height: auto;
@@ -364,17 +436,20 @@ body {
         height: auto; }
         main article .zhc-floor1 .zhc-biao1 {
           width: 100%;
-          height: 150px;
-          background: url(../img/zhc/zhc-biao1_04.png);
-          background-position: center;
-          background-repeat: no-repeat; }
+          text-align: center;
+          padding: 0 25%;
+          box-sizing: border-box; }
+          main article .zhc-floor1 .zhc-biao1 img {
+            width: 100%; }
         main article .zhc-floor1 ul {
           width: 100%;
           margin: 50px 0; }
           main article .zhc-floor1 ul li {
+            margin: 10px 0;
             text-align: center; }
             main article .zhc-floor1 ul li img {
-              height: 100%; }
+              height: 100%;
+              transition: transform 0.3s; }
             main article .zhc-floor1 ul li p {
               margin-top: 20px;
               width: 100%;
@@ -553,12 +628,12 @@ body {
       .zhc-footer .zhc-fot img {
         height: 100%; }
     .zhc-footer .zhc-fots {
-      width: 1200px;
+      width: 100%;
       height: auto;
       margin: 0 auto;
       overflow: hidden; }
       .zhc-footer .zhc-fots div:first-child {
-        width: 45%;
+        width: 40%;
         height: 200px;
         float: left; }
         .zhc-footer .zhc-fots div:first-child img {
@@ -567,8 +642,9 @@ body {
           width: 120px;
           margin: 40px; }
         .zhc-footer .zhc-fots div:first-child div {
+          float: left;
           height: 200px;
-          width: 340px; }
+          width: 50%; }
           .zhc-footer .zhc-fots div:first-child div h1 {
             width: 100%;
             margin: 0;

@@ -1,21 +1,19 @@
-﻿/**
- * Created by Administrator on 2017/2/21.
- */
-(function (doc, win) {
-    var docEl = doc.documentElement,
-        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-        recalc = function () {
-            var clientWidth = docEl.clientWidth;
-            if (!clientWidth) return;
-            if(clientWidth>=1080){
-                // 这里的640 取决于设计稿的宽度
-                docEl.style.fontSize = '100px';
-            }else{
-                docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
-            }
-        };
+﻿
 
-    if (!doc.addEventListener) return;
-    win.addEventListener(resizeEvt, recalc, false);
-    doc.addEventListener('DOMContentLoaded', recalc, false);
-})(document, window);
+$(document).ready(function(){
+	//	导航栏划入划出
+	$('.navmin > div').last().on('touchstart',function(){
+		$('.navmin > div ul').toggle(200)
+	})
+	
+//	大屏返回顶部
+	$('.zhc-fot a').click(function(){
+		let back = $(".zhc-fot").offset().top;
+    	$("html,body").animate({scrollTop: 0}, 500);   //带滑动效果的跳转
+	})
+//	小屏返回顶部	
+	$('.zhc-fotmin a')[0].addEventListener('touchstart',function(){
+		let back = $(".zhc-fotmin").offset().top;
+    	$("html,body").animate({scrollTop: 0}, 500);   //带滑动效果的跳转
+	})
+})
