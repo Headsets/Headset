@@ -217,12 +217,12 @@ body {
           font-size: 14px;
           font-family: "Arial";
           color: #898888;
-          text-align: center; }
+          text-align: justify; }
         .box1 > .yzf-list1 > .yzf-wenzi > h3 {
           font-size: 14px;
           font-family: "微软雅黑";
           color: #000;
-          margin-top: 7px; }
+          margin-top: 20px; }
         .box1 > .yzf-list1 > .yzf-wenzi > h4 {
           font-size: 14px;
           font-family: "微软雅黑";
@@ -330,7 +330,7 @@ body {
           font-size: 14px;
           font-family: "微软雅黑";
           color: #000;
-          margin-top: 7px; }
+          margin-top: 20px; }
         .box1 > .yzf-list3 > .yzf-wenzi3 > h4 {
           font-size: 14px;
           font-family: "微软雅黑";
@@ -413,7 +413,7 @@ body {
           font-size: 14px;
           font-family: "微软雅黑";
           color: #000;
-          margin-top: 7px; }
+          margin-top: 20px; }
         .box1 > .yzf-list4 > .yzf-wenzi4 > h4 {
           font-size: 14px;
           font-family: "微软雅黑";
@@ -525,7 +525,7 @@ body {
         width: 10%;
         height: 60px;
         border-radius: 0  50px 50px 0;
-        background: rgba(255,255,255,0.3);
+        background: rgba(255, 255, 255, 0.3);
         float: left; }
       .yzf-banner .navmax .sy2 {
         width: 6%;
@@ -539,7 +539,7 @@ body {
       .yzf-banner .navmax .jutwo {
         width: 80%;
         height: 60px;
-        background: rgba(255,255,255,0.3);
+        background: rgba(255, 255, 255, 0.3);
         border-radius: 50px 0 0 50px;
         margin-left: 2%;
         float: left; }
