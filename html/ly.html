@@ -6,24 +6,27 @@
 		<title></title>
 		<script src="../js/jquery.js"></script>
 	    <link rel="stylesheet" href="../css/bootstrap.css">
-	    <script src="../js/common.js"></script>
+	    
 	    <script src="../js/bootstrap.js"></script>
 	    <link rel="stylesheet" href="../css/common.css">
 	    <link rel="stylesheet" href="../css/ly-sy.css">
 	    <script src='../js/ly.js'></script>
+	    <script src="../js/common.js"></script>
 	</head>
 	<body>
 		<header>
+			<div class='zjt'>&lt;</div>
+			<div class='yjt'>&gt;</div>
 		<div class="ly-banner">
-				<div class="ban-box ly-op"></div>
-				<div class="ban-box"></div>
-				<div class="ban-box"></div>
-			</div>
-			<ul>
-				<li class="licolor"></li>
-				<li></li>
-				<li></li>
-			</ul>
+			<div class="ban-box ly-op"></div>
+			<div class="ban-box"></div>
+			<div class="ban-box"></div>
+		</div>
+		<ul>
+			<li class="licolor"></li>
+			<li></li>
+			<li></li>
+		</ul>
 		<nav class="navmax">
             <div class="juone"></div>
             <div class="sy2"></div>
@@ -122,7 +125,7 @@
 			<ul>
 				<li>采用了阻抗小于 <span>0.50</span> 线材</li>
 				<li>度待复合振膜 <span>40 </span>动圈单元</li>
-				<li>采用<span>32</span>  欧姆阻抗</li>
+				<li>非常的好用的<span>32</span>  欧姆阻抗</li>
 			</ul>
 			<div class="ly-xximg"><img src="../img/zhc/zhc-abour1.png"></div>
 		</section>
@@ -133,10 +136,18 @@
 				<img src="../img/ly/ly-img3_09.png" />
 			</section>
 		</section>
+		
 		<section class="ly-about">
+			
 			<div class="ly-abimg"><img src="../img/ly/aboutus.png"></div>
+			<div class='ly-aboutmin'>
+			<div class='ly-aboutminimg'>
+				<img src="../img/ly/ly-about.png" alt="" />
+			</div>
+		</div>
 			<div class="ly-tuwen">
 				<div class="ly-first"><img src="../img/ly/ren2.png"></div>
+				
 				<div class="ly-second">
 					<p class="ly-gs">瑞尔公司 <b>Rui Er</b> <span>company</span></p>
 					<div class="ly-tiao"></div>
@@ -148,20 +159,80 @@
 			</div>
 			<div class="ly-minlunbo">
 				<div class="ly-min-box">
-					<img src="../img/ly/ly-minimg_20.png" />
-					<img src="../img/ly/ly-minimg_18.png" />
-					<img src="../img/ly/ly-minimg_20.png" />
-					<div class="ly-left">&lt;</div>
-					<div class="ly-right">&gt;</div>
+					<ul>
+						<li><img src="../img/ly/ly-minimg_20.png" /></li>
+						<li><img src="../img/ly/ly-minimg_16.png" /></li>
+						<li><img src="../img/ly/ly-minimg_18.png" /></li>
+						<li><img src="../img/ly/ly-minimg_20.png" /></li>
+						<li><img src="../img/ly/ly-minimg_16.png" /></li>
+						<li><img src="../img/ly/ly-minimg_18.png" /></li>
+						<li><img src="../img/ly/ly-minimg_20.png" /></li>
+						<li><img src="../img/ly/ly-minimg_16.png" /></li>
+						<li><img src="../img/ly/ly-minimg_18.png" /></li>
+					</ul>
 				</div>
+					<p class="ly-left">&lt;</p>
+					<p class="ly-right">&gt;</p>
 			</div>
 			<div class="ly-cir">
 				<ul>
-					<li></li>
+					<li class='ly-now'></li>
 					<li></li>
 					<li></li>
 				</ul>
 			</div>
+		<script>
+			$(function(){
+				var imgbox=$('.ly-min-box>ul');
+				var navgates=$('.ly-cir li');
+				var btnl=$('.ly-minlunbo .ly-left');
+				var btnr=$('.ly-minlunbo .ly-right');
+				var n=0;
+				var way='r';
+				var t=setInterval(lymove,2500);
+				function lymove(){
+					switch(way){
+					case 'r':
+						n++;
+						if(n>2){
+							n=0;
+						}
+					break;
+					case 'l':
+						n--;
+						if(n<0){
+							n=2;
+						}
+					break;
+					}
+					imgbox.css('left',-n*100+'%');
+					navgates.eq(n).addClass('ly-now').siblings().removeClass('ly-now');
+				}
+				btnr.click(function(){
+					lymove('r');
+				})
+				btnl.click(function(){
+					lymove('l');
+				})
+				navgates.click(function(){
+					n=$(this).index();
+					imgbox.css('left',-n*100+'%');
+					navgates.eq(n).addClass('ly-now').siblings().removeClass('ly-now');
+				})
+				$('.ly-minlunbo').hover(function(){
+					clearInterval(t);
+				},function(){
+					t=setInterval(lymove,2500);
+				})
+				$('.ly-cir').hover(function(){
+					clearInterval(t);
+				},function(){
+					t=setInterval(lymove,2500);
+				})
+				// console.log(imgbox,navgates,btnl,btnr);
+				
+			})
+		</script>
 		</section>
 		<!--新闻中心-->
 		<div class='ly-xwzx'>
@@ -177,11 +248,17 @@
 			<div class='ly-xwzx4'>
 				<img src="../img/ly/ly-xwzx4.png" alt="" />
 			</div>
+			<div class='ly-xwzx4-2'>
+				<img src="../img/ly/ly-xwzx4-2.png" alt="" />
+			</div>
 			<div class='ly-xwzx5'>
 				<img src="../img/ly/ly-xwzx5.png" alt="" />
 			</div>
 			<div class='ly-xwzx6'>
 				<img src="../img/ly/ly-xwzx6.png" alt="" />
+			</div>
+			<div class='ly-xwzx6-2'>
+				<img src="../img/ly/ly-xwzx6-2.png" alt="" />
 			</div>
 			<div class='ly-xwzx7'>
 				<img src="../img/ly/ly-xwzx7.png" alt="" />
@@ -239,5 +316,17 @@
 		<div class="zhc-fotss">Copyright &copy;2008 [使用者网站] Powered By [网站程序名称] Version 1.0.0</div>
 	</footer>
 	<footer class="zhc-footermin">
+		<div class="zhc-fotmin"><a href="jacvascript:;"><img src="../img/zhc/zhc-fot_07.png"></a></div>
+		<p>地址：山西省太原市小店区平阳路学府街开通大厦406号</p>
+		<p>联系电话：13948293048  邮箱：19365036qq.com</p>
+		<h5>微信公众号：xu18437296ni</h5>
+		<div>
+			<img src="../img/zhc/zhc-fotsf_10.png" />
+			<img src="../img/zhc/zhc-fotsf_12.png" />
+			<img src="../img/zhc/zhc-fotsf_14.png" />
+		</div>
+		<section class="zhc-fotend">Copyright &copy;2008 [使用者网站] Powered By [网站程
+序名称] Version 1.0.0</section>
+	</footer>
 	</body>
 </html>

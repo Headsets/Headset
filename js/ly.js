@@ -5,15 +5,17 @@ $(document).ready(function(){
 		$('.zhc-footer').css('marginTop','height')
 	})
 	
-	$('.navmin > div').last().click(function(){
-		$('.navmin > div ul').toggle(200)
-	})
+
 	//	banner
-	let lis=$('header ul li')
+	let lis=$('header>ul>li')
+	console.log(lis);
 	let imgs=$('.ly-banner>div')
 	let n=0;
 	let t;
 	let flag=true;
+	let zjt=$('.zjt');
+	let yjt=$('.yjt');
+	console.log('.zjt');
 	t=setInterval(move,3000);
 	function move(){
 		n++;
@@ -35,5 +37,20 @@ $(document).ready(function(){
 		flag=true;
 	})
 		
-	
+	yjt.on('click',function(){
+		move();
+	})
+	zjt.on('click',function(){
+		n--;
+		if(n<0){
+			n=imgs.length-1;
+		}
+		lis.eq(n).addClass('licolor').siblings().removeClass('licolor');
+		imgs.eq(n).addClass('ly-op').siblings().removeClass('ly-op')
+	})
+	lis.on('mouseover',function(){
+		n=$(this).index();
+		lis.eq(n).addClass('licolor').siblings().removeClass('licolor');
+		imgs.eq(n).addClass('ly-op').siblings().removeClass('ly-op')
+	})
 })
