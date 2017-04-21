@@ -218,7 +218,7 @@ $(document).ready(function(){
     	$("html,body").animate({scrollTop: 0}, 500);   //带滑动效果的跳转
 	})
 	
-	$('.yzf-list1').on('touchstart',function(){
+	$('.yzf-list1')[0].addEventListener('touchstart',function(){
 		location.href=('yzf-xinwen2.html');
 	})
 	$('.yzf-list1').click(function(){
