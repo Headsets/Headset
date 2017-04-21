@@ -58,10 +58,10 @@
     background-position: center center;
     background-size: 100% 100%;
   }
-  header .navmin {
+  header .navmax {
     display: none;
   }
-  header .navmax {
+  header .navmin {
     width: 100%;
     height: 60px;
     position: absolute;
@@ -70,14 +70,14 @@
     margin-left: -50%;
     overflow: hidden;
   }
-  header .navmax .juone {
+  header .navmin .juone {
     width: 10%;
     height: 60px;
     border-radius: 0  50px 50px 0;
     background: #393A3A;
     float: left;
   }
-  header .navmax .sy2 {
+  header .navmin .sy2 {
     width: 6%;
     height: 60px;
     float: left;
@@ -86,7 +86,7 @@
     background-size: 66px 60px;
     margin-left: 2%;
   }
-  header .navmax .jutwo {
+  header .navmin .jutwo {
     width: 80%;
     height: 60px;
     background: #393A3A;
@@ -94,14 +94,14 @@
     margin-left: 2%;
     float: left;
   }
-  header .navmax .jutwo .active {
+  header .navmin .jutwo .active {
     border-bottom: 4px solid #ff0000;
     box-sizing: border-box;
   }
-  header .navmax .jutwo img {
+  header .navmin .jutwo img {
     float: left;
   }
-  header .navmax .jutwo a {
+  header .navmin .jutwo a {
     height: 100%;
     float: left;
     font-size: 18px;
@@ -110,25 +110,25 @@
     line-height: 60px;
     text-decoration: none;
   }
-  header .navmax .jutwo a span {
+  header .navmin .jutwo a span {
     font-size: 18px;
   }
-  header .navmax .jutwo a:hover {
+  header .navmin .jutwo a:hover {
     text-decoration: none;
     opacity: 0.8;
   }
-  header .navmax .jutwo .denglu {
+  header .navmin .jutwo .denglu {
     width: 120px;
     height: 60px;
     margin-left: 50px;
     float: left;
   }
-  header .navmax .jutwo .denglu a {
+  header .navmin .jutwo .denglu a {
     font-size: 16px;
     float: left;
     margin-top: 2px;
   }
-  header .navmax .jutwo input {
+  header .navmin .jutwo input {
     width: 170px;
     height: 24px;
     border-radius: 7px;
@@ -1204,8 +1204,6 @@
     width: 100%;
   }
   .zhc-footer {
-    margin: 0 auto;
-    max-width: 1920px;
     width: 100%;
     height: auto;
     position: relative;
@@ -1289,7 +1287,7 @@
   }
   .zhc-footer .zhc-fots div:nth-child(2) img {
     margin-left: 35px;
-    width: 100%;
+    width: 101px;
     height: 109px;
     margin-top: 30px;
   }
