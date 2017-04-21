@@ -37,7 +37,6 @@ $(document).ready(function(){
 		flag=true;
 	})
 		
-<<<<<<< HEAD
 	yjt.on('click',function(){
 		move();
 	})
@@ -54,6 +53,6 @@ $(document).ready(function(){
 		lis.eq(n).addClass('licolor').siblings().removeClass('licolor');
 		imgs.eq(n).addClass('ly-op').siblings().removeClass('ly-op')
 	})
-=======
->>>>>>> ae7aa49ae74a597a902291fd35910f2e39c7e827
+
+
 })

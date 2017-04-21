@@ -490,7 +490,7 @@
   .ly-xwzx .ly-xwzx4-2 {
     width: 100%;
     float: right;
-    padding: 0 0;
+    padding: 5px 24px;
   }
   .ly-xwzx .ly-xwzx4-2 img {
     width: 100%;
@@ -514,6 +514,7 @@
   }
   .ly-xwzx .ly-xwzx6-2 {
     width: 100%;
+    padding: 5px 24px;
   }
   .ly-xwzx .ly-xwzx6-2 img {
     width: 100%;
@@ -602,7 +603,7 @@
     width: 100%;
     text-align: center;
     height: auto;
-    padding: 30px 35%;
+    padding: 40px 35% 0 35%;
   }
   .zhc-footermin .zhc-fotmin img {
     width: 100%;
@@ -1046,7 +1047,7 @@
   .ly-about .ly-cir {
     width: 100%;
     height: auto;
-    margin-top: 50px;
+    margin-top: -20px;
     position: relative;
   }
   .ly-about .ly-cir ul {
@@ -1148,7 +1149,7 @@
   }
   .ly-xwzx .ly-xwzx1 {
     width: 100%;
-    padding: 0 38%;
+    padding: 20px 38%;
   }
   .ly-xwzx .ly-xwzx1 img {
     width: 100%;
