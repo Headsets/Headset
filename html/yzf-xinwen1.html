@@ -208,18 +208,18 @@
 	
 //$(document).ready(function(){
 	//	导航栏划入划出
-	$('.navmin > div').last().on('touchstart',function(){
+	$('.navmin > div').last()[0].addEventListener('touchstart',function(){
 		$('.navmin > div ul').toggle(200)
 	})
 	
 
 	console.log($('.yzf-list1')[0])
-	$('.yzf-list1')[0].addEventListener('click',function(){
+	$('.yzf-list1').on('touchstart',function(){
 		location.href=('yzf-xinwen2.html');
 	})
-//	$('.yzf-list1').click(function(){
-//		location.href=('yzf-xinwen2.html');
-//	})
+	$('.yzf-list1').click(function(){
+		location.href=('yzf-xinwen2.html');
+	})
 //	$('.yzf-list2').click(function(){
 //		location.href=('yzf-xinwen2.html');
 //	})
