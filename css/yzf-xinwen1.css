@@ -179,257 +179,261 @@ body {
       background-size: cover;
       background-position: center;
       margin: 0 auto 0 8%; }
-    .box1 > .yzf-list1 {
-      width: 85%;
+    .box1 > a {
+      width: 100%;
       height: auto;
-      border-top: 1px solid #ccc;
-      margin-left: 8%;
-      margin-top: -14px;
-      padding-top: 27px;
-      overflow: hidden; }
-      .box1 > .yzf-list1 > .yzf-font1 {
-        width: 63px;
-        height: 63px;
-        background-image: url(../img/yzf/fontsize_03.png);
-        margin-top: 20px;
-        float: left; }
-      .box1 > .yzf-list1 > .yzf-img1 {
-        width: 70%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_11.png);
-        background-size: 100% 100%;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list1 > .yzf-wenzi {
-        width: 100%;
-        height: 100%;
-        float: left;
-        position: relative; }
-        .box1 > .yzf-list1 > .yzf-wenzi > h2 {
-          font-size: 8px;
-          font-family: "helvetica";
-          color: #CCCCCC;
+      display: block; }
+      .box1 > a > .yzf-list1 {
+        width: 85%;
+        height: auto;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        margin-top: -14px;
+        padding-top: 27px;
+        overflow: hidden; }
+        .box1 > a > .yzf-list1 > .yzf-font1 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_03.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list1 > .yzf-img1 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: 100% 100%;
+          background-position: center;
           float: left;
-          position: absolute;
-          top: 4px;
-          right: 10px;
-          margin-top: 25px; }
-        .box1 > .yzf-list1 > .yzf-wenzi > h5 {
-          font-size: 14px;
-          font-family: "Arial";
-          color: #898888;
-          text-align: justify; }
-        .box1 > .yzf-list1 > .yzf-wenzi > h3 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #000;
-          margin-top: 20px; }
-        .box1 > .yzf-list1 > .yzf-wenzi > h4 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #666;
-          text-align: justify;
-          margin-top: 14px; }
-        .box1 > .yzf-list1 > .yzf-wenzi > h6 {
-          font-size: 12px;
-          font-family: "Arial";
-          color: #898888;
-          margin-top: 14px; }
-    .box1 > .yzf-list2 {
-      width: 85%;
-      height: auto;
-      margin-left: 8%;
-      padding-top: 27px;
-      border-top: 1px solid #ccc;
-      overflow: hidden; }
-      .box1 > .yzf-list2 > .yzf-font2 {
-        width: 63px;
-        height: 63px;
-        background-image: url(../img/yzf/fontsize_07.png);
-        margin-top: 20px;
-        float: left; }
-      .box1 > .yzf-list2 > .yzf-img2 {
-        width: 70%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_15.png);
-        background-size: cover;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list2 > .yzf-wenzi2 {
-        width: 100%;
-        height: 100%;
-        float: left;
-        position: relative; }
-        .box1 > .yzf-list2 > .yzf-wenzi2 > h2 {
-          font-size: 8px;
-          font-family: "helvetica";
-          color: #CCCCCC;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list1 > .yzf-wenzi {
+          width: 100%;
+          height: 100%;
           float: left;
-          position: absolute;
-          top: 4px;
-          right: 10px;
-          margin-top: 25px; }
-        .box1 > .yzf-list2 > .yzf-wenzi2 > h5 {
-          font-size: 14px;
-          font-family: "Arial";
-          color: #898888; }
-        .box1 > .yzf-list2 > .yzf-wenzi2 > h3 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #000;
-          margin-top: 20px; }
-        .box1 > .yzf-list2 > .yzf-wenzi2 > h4 {
-          text-align: justify;
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #666;
-          margin-top: 14px; }
-        .box1 > .yzf-list2 > .yzf-wenzi2 > h6 {
-          font-size: 12px;
-          font-family: "Arial";
-          color: #898888;
-          margin-top: 14px; }
-    .box1 > .yzf-list3 {
-      width: 85%;
-      height: auto;
-      border-top: 1px solid #ccc;
-      margin-left: 8%;
-      padding-top: 25px;
-      overflow: hidden; }
-      .box1 > .yzf-list3 > .yzf-font3 {
-        width: 63px;
-        height: 63px;
-        background-image: url(../img/yzf/fontsize_11.png);
-        margin-top: 20px;
-        float: left; }
-      .box1 > .yzf-list3 > .yzf-img3 {
-        width: 70%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_11.png);
-        background-size: cover;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list3 > .yzf-wenzi3 {
-        width: 100%;
-        height: 100%;
-        float: left;
-        position: relative; }
-        .box1 > .yzf-list3 > .yzf-wenzi3 > h2 {
-          font-size: 8px;
-          font-family: "helvetica";
-          color: #CCCCCC;
+          position: relative; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px;
+            margin-top: 25px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888;
+            text-align: justify; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-top: 20px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            text-align: justify;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list2 {
+        width: 85%;
+        height: auto;
+        margin-left: 8%;
+        padding-top: 27px;
+        border-top: 1px solid #ccc;
+        overflow: hidden; }
+        .box1 > a > .yzf-list2 > .yzf-font2 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_07.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list2 > .yzf-img2 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_15.png);
+          background-size: cover;
+          background-position: center;
           float: left;
-          position: absolute;
-          top: 4px;
-          right: 10px;
-          margin-top: 25px; }
-        .box1 > .yzf-list3 > .yzf-wenzi3 > h5 {
-          font-size: 14px;
-          font-family: "Arial";
-          color: #898888; }
-        .box1 > .yzf-list3 > .yzf-wenzi3 > h3 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #000;
-          margin-top: 20px; }
-        .box1 > .yzf-list3 > .yzf-wenzi3 > h4 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #666;
-          text-align: justify;
-          margin-top: 14px; }
-        .box1 > .yzf-list3 > .yzf-wenzi3 > h6 {
-          font-size: 12px;
-          font-family: "Arial";
-          color: #898888;
-          margin-top: 14px; }
-    .box1 > .yzf-list4 {
-      width: 85%;
-      height: auto;
-      border-top: 1px solid #ccc;
-      margin-left: 8%;
-      padding-top: 25px;
-      overflow: hidden; }
-      .box1 > .yzf-list4 > .yzf-font4 {
-        width: 63px;
-        height: 63px;
-        background-image: url(../img/yzf/fontsize_14.png);
-        margin-top: 20px;
-        float: left; }
-      .box1 > .yzf-list4 > .yzf-img4 {
-        width: 70%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_11.png);
-        background-size: cover;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list4 > .yzf-font5 {
-        width: 63px;
-        height: 63px;
-        background-image: url(../img/yzf/fontsize_17.png);
-        margin-top: 20px;
-        float: left; }
-      .box1 > .yzf-list4 > .yzf-img5 {
-        width: 70%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_26.png);
-        background-size: cover;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list4 > .yzf-font6 {
-        width: 60px;
-        height: 60px;
-        background-image: url(../img/yzf/fontsize_19.png);
-        margin-top: 20px;
-        float: left;
-        z-index: 1000000; }
-      .box1 > .yzf-list4 > .yzf-img6 {
-        width: 70%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_29.png);
-        background-size: cover;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list4 > .yzf-wenzi4 {
-        width: 100%;
-        height: 100%;
-        float: left;
-        position: relative; }
-        .box1 > .yzf-list4 > .yzf-wenzi4 > h2 {
-          font-size: 8px;
-          font-family: "helvetica";
-          color: #CCCCCC;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list2 > .yzf-wenzi2 {
+          width: 100%;
+          height: 100%;
           float: left;
-          position: absolute;
-          top: 4px;
-          right: 10px;
-          margin-top: 25px; }
-        .box1 > .yzf-list4 > .yzf-wenzi4 > h5 {
-          font-size: 14px;
-          font-family: "Arial";
-          color: #898888; }
-        .box1 > .yzf-list4 > .yzf-wenzi4 > h3 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #000;
-          margin-top: 20px; }
-        .box1 > .yzf-list4 > .yzf-wenzi4 > h4 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #666;
-          margin-top: 14px;
-          text-align: justify; }
-        .box1 > .yzf-list4 > .yzf-wenzi4 > h6 {
-          font-size: 12px;
-          font-family: "Arial";
-          color: #898888;
-          margin-top: 14px; }
+          position: relative; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px;
+            margin-top: 25px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-top: 20px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h4 {
+            text-align: justify;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list3 {
+        width: 85%;
+        height: auto;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        padding-top: 25px;
+        overflow: hidden; }
+        .box1 > a > .yzf-list3 > .yzf-font3 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_11.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list3 > .yzf-img3 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list3 > .yzf-wenzi3 {
+          width: 100%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px;
+            margin-top: 25px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-top: 20px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            text-align: justify;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list4 {
+        width: 85%;
+        height: auto;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        padding-top: 25px;
+        overflow: hidden; }
+        .box1 > a > .yzf-list4 > .yzf-font4 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_14.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list4 > .yzf-img4 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-font5 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_17.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list4 > .yzf-img5 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_26.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-font6 {
+          width: 60px;
+          height: 60px;
+          background-image: url(../img/yzf/fontsize_19.png);
+          margin-top: 20px;
+          float: left;
+          z-index: 1000000; }
+        .box1 > a > .yzf-list4 > .yzf-img6 {
+          width: 70%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_29.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-wenzi4 {
+          width: 100%;
+          height: 100%;
+          float: left;
+          position: relative; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px;
+            margin-top: 25px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-top: 20px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-top: 14px;
+            text-align: justify; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-top: 14px; }
     .box1 > .ss {
       text-align: center;
       margin-top: 30px;
@@ -613,264 +617,268 @@ body {
       background-size: cover;
       background-position: center;
       margin: 20px auto 0 8%; }
-    .box1 > .yzf-list1 {
-      width: 85%;
-      height: 200px;
-      border-top: 1px solid #ccc;
-      margin-left: 8%;
-      margin-top: -14px;
-      padding-top: 27px; }
-      .box1 > .yzf-list1 > .yzf-font1 {
-        width: 63px;
-        height: 63px;
-        background-image: url(../img/yzf/fontsize_03.png);
-        margin-top: 20px;
-        float: left; }
-      .box1 > .yzf-list1 > .yzf-img1 {
-        width: 20%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_11.png);
-        background-size: 100% 100%;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list1 > .yzf-wenzi {
-        width: 65%;
-        height: 100%;
-        float: left;
-        margin-left: 10px;
-        position: relative; }
-        .box1 > .yzf-list1 > .yzf-wenzi > h2 {
-          font-size: 8px;
-          font-family: "helvetica";
-          color: #CCCCCC;
+    .box1 > a {
+      width: 100%;
+      height: auto;
+      display: block; }
+      .box1 > a > .yzf-list1 {
+        width: 85%;
+        height: 200px;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        margin-top: -14px;
+        padding-top: 27px; }
+        .box1 > a > .yzf-list1 > .yzf-font1 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_03.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list1 > .yzf-img1 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: 100% 100%;
+          background-position: center;
           float: left;
-          position: absolute;
-          top: 4px;
-          right: 10px; }
-        .box1 > .yzf-list1 > .yzf-wenzi > h5 {
-          font-size: 14px;
-          font-family: "Arial";
-          color: #898888;
-          margin-left: 15px; }
-        .box1 > .yzf-list1 > .yzf-wenzi > h3 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #000;
-          margin-left: 15px;
-          margin-top: 7px; }
-        .box1 > .yzf-list1 > .yzf-wenzi > h4 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #666;
-          margin-left: 15px;
-          margin-top: 14px; }
-        .box1 > .yzf-list1 > .yzf-wenzi > h6 {
-          font-size: 12px;
-          font-family: "Arial";
-          color: #898888;
-          margin-left: 15px;
-          margin-top: 14px; }
-    .box1 > .yzf-list2 {
-      width: 85%;
-      height: 200px;
-      margin-left: 8%;
-      padding-top: 27px;
-      border-top: 1px solid #ccc; }
-      .box1 > .yzf-list2 > .yzf-font2 {
-        width: 63px;
-        height: 63px;
-        background-image: url(../img/yzf/fontsize_07.png);
-        margin-top: 20px;
-        float: left; }
-      .box1 > .yzf-list2 > .yzf-img2 {
-        width: 20%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_15.png);
-        background-size: cover;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list2 > .yzf-wenzi2 {
-        width: 65%;
-        height: 100%;
-        float: left;
-        margin-left: 10px;
-        position: relative; }
-        .box1 > .yzf-list2 > .yzf-wenzi2 > h2 {
-          font-size: 8px;
-          font-family: "helvetica";
-          color: #CCCCCC;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list1 > .yzf-wenzi {
+          width: 65%;
+          height: 100%;
           float: left;
-          position: absolute;
-          top: 4px;
-          right: 10px; }
-        .box1 > .yzf-list2 > .yzf-wenzi2 > h5 {
-          font-size: 14px;
-          font-family: "Arial";
-          color: #898888;
-          margin-left: 15px; }
-        .box1 > .yzf-list2 > .yzf-wenzi2 > h3 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #000;
-          margin-left: 15px;
-          margin-top: 7px; }
-        .box1 > .yzf-list2 > .yzf-wenzi2 > h4 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #666;
-          margin-left: 15px;
-          margin-top: 14px; }
-        .box1 > .yzf-list2 > .yzf-wenzi2 > h6 {
-          font-size: 12px;
-          font-family: "Arial";
-          color: #898888;
-          margin-left: 15px;
-          margin-top: 14px; }
-    .box1 > .yzf-list3 {
-      width: 85%;
-      height: 210px;
-      border-top: 1px solid #ccc;
-      margin-left: 8%;
-      padding-top: 25px; }
-      .box1 > .yzf-list3 > .yzf-font3 {
-        width: 63px;
-        height: 63px;
-        background-image: url(../img/yzf/fontsize_11.png);
-        margin-top: 20px;
-        float: left; }
-      .box1 > .yzf-list3 > .yzf-img3 {
-        width: 20%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_11.png);
-        background-size: cover;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list3 > .yzf-wenzi3 {
-        width: 65%;
-        height: 100%;
-        float: left;
-        margin-left: 10px;
-        position: relative; }
-        .box1 > .yzf-list3 > .yzf-wenzi3 > h2 {
-          font-size: 8px;
-          font-family: "helvetica";
-          color: #CCCCCC;
+          margin-left: 10px;
+          position: relative; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-left: 15px;
+            margin-top: 7px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-left: 15px;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list1 > .yzf-wenzi > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list2 {
+        width: 85%;
+        height: 200px;
+        margin-left: 8%;
+        padding-top: 27px;
+        border-top: 1px solid #ccc; }
+        .box1 > a > .yzf-list2 > .yzf-font2 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_07.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list2 > .yzf-img2 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_15.png);
+          background-size: cover;
+          background-position: center;
           float: left;
-          position: absolute;
-          top: 4px;
-          right: 10px; }
-        .box1 > .yzf-list3 > .yzf-wenzi3 > h5 {
-          font-size: 14px;
-          font-family: "Arial";
-          color: #898888;
-          margin-left: 15px; }
-        .box1 > .yzf-list3 > .yzf-wenzi3 > h3 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #000;
-          margin-left: 15px;
-          margin-top: 7px; }
-        .box1 > .yzf-list3 > .yzf-wenzi3 > h4 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #666;
-          margin-left: 15px;
-          margin-top: 14px; }
-        .box1 > .yzf-list3 > .yzf-wenzi3 > h6 {
-          font-size: 12px;
-          font-family: "Arial";
-          color: #898888;
-          margin-left: 15px;
-          margin-top: 14px; }
-    .box1 > .yzf-list4 {
-      width: 85%;
-      height: 210px;
-      border-top: 1px solid #ccc;
-      margin-left: 8%;
-      padding-top: 25px; }
-      .box1 > .yzf-list4 > .yzf-font4 {
-        width: 63px;
-        height: 63px;
-        background-image: url(../img/yzf/fontsize_14.png);
-        margin-top: 20px;
-        float: left; }
-      .box1 > .yzf-list4 > .yzf-img4 {
-        width: 20%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_11.png);
-        background-size: cover;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list4 > .yzf-font5 {
-        width: 63px;
-        height: 63px;
-        background-image: url(../img/yzf/fontsize_17.png);
-        margin-top: 20px;
-        float: left; }
-      .box1 > .yzf-list4 > .yzf-img5 {
-        width: 20%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_26.png);
-        background-size: cover;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list4 > .yzf-font6 {
-        width: 60px;
-        height: 60px;
-        background-image: url(../img/yzf/fontsize_19.png);
-        margin-top: 20px;
-        float: left;
-        z-index: 1000000; }
-      .box1 > .yzf-list4 > .yzf-img6 {
-        width: 20%;
-        height: 140px;
-        background-image: url(../img/yzf/xinwen1_29.png);
-        background-size: cover;
-        background-position: center;
-        float: left;
-        margin-left: 10px; }
-      .box1 > .yzf-list4 > .yzf-wenzi4 {
-        width: 65%;
-        height: 100%;
-        float: left;
-        margin-left: 10px;
-        position: relative; }
-        .box1 > .yzf-list4 > .yzf-wenzi4 > h2 {
-          font-size: 8px;
-          font-family: "helvetica";
-          color: #CCCCCC;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list2 > .yzf-wenzi2 {
+          width: 65%;
+          height: 100%;
           float: left;
-          position: absolute;
-          top: 4px;
-          right: 10px; }
-        .box1 > .yzf-list4 > .yzf-wenzi4 > h5 {
-          font-size: 14px;
-          font-family: "Arial";
-          color: #898888;
-          margin-left: 15px; }
-        .box1 > .yzf-list4 > .yzf-wenzi4 > h3 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #000;
-          margin-left: 15px;
-          margin-top: 7px; }
-        .box1 > .yzf-list4 > .yzf-wenzi4 > h4 {
-          font-size: 14px;
-          font-family: "微软雅黑";
-          color: #666;
-          margin-left: 15px;
-          margin-top: 14px; }
-        .box1 > .yzf-list4 > .yzf-wenzi4 > h6 {
-          font-size: 12px;
-          font-family: "Arial";
-          color: #898888;
-          margin-left: 15px;
-          margin-top: 14px; }
+          margin-left: 10px;
+          position: relative; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-left: 15px;
+            margin-top: 7px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-left: 15px;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list2 > .yzf-wenzi2 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list3 {
+        width: 85%;
+        height: 210px;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        padding-top: 25px; }
+        .box1 > a > .yzf-list3 > .yzf-font3 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_11.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list3 > .yzf-img3 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list3 > .yzf-wenzi3 {
+          width: 65%;
+          height: 100%;
+          float: left;
+          margin-left: 10px;
+          position: relative; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-left: 15px;
+            margin-top: 7px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-left: 15px;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list3 > .yzf-wenzi3 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px;
+            margin-top: 14px; }
+      .box1 > a > .yzf-list4 {
+        width: 85%;
+        height: 210px;
+        border-top: 1px solid #ccc;
+        margin-left: 8%;
+        padding-top: 25px; }
+        .box1 > a > .yzf-list4 > .yzf-font4 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_14.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list4 > .yzf-img4 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_11.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-font5 {
+          width: 63px;
+          height: 63px;
+          background-image: url(../img/yzf/fontsize_17.png);
+          margin-top: 20px;
+          float: left; }
+        .box1 > a > .yzf-list4 > .yzf-img5 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_26.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-font6 {
+          width: 60px;
+          height: 60px;
+          background-image: url(../img/yzf/fontsize_19.png);
+          margin-top: 20px;
+          float: left;
+          z-index: 1000000; }
+        .box1 > a > .yzf-list4 > .yzf-img6 {
+          width: 20%;
+          height: 140px;
+          background-image: url(../img/yzf/xinwen1_29.png);
+          background-size: cover;
+          background-position: center;
+          float: left;
+          margin-left: 10px; }
+        .box1 > a > .yzf-list4 > .yzf-wenzi4 {
+          width: 65%;
+          height: 100%;
+          float: left;
+          margin-left: 10px;
+          position: relative; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h2 {
+            font-size: 8px;
+            font-family: "helvetica";
+            color: #CCCCCC;
+            float: left;
+            position: absolute;
+            top: 4px;
+            right: 10px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h5 {
+            font-size: 14px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h3 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #000;
+            margin-left: 15px;
+            margin-top: 7px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h4 {
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #666;
+            margin-left: 15px;
+            margin-top: 14px; }
+          .box1 > a > .yzf-list4 > .yzf-wenzi4 > h6 {
+            font-size: 12px;
+            font-family: "Arial";
+            color: #898888;
+            margin-left: 15px;
+            margin-top: 14px; }
     .box1 > .ss2 {
       display: none; }
     .box1 > .ss {
