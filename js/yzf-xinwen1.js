@@ -3,6 +3,31 @@ $(document).ready(function(){
 		$('.navmin > div ul').toggle(200)
 	})
 	
+	
+	$('.yzf-list1').on('touchstart',function(){
+		location.href='yzf-xinwen2.html';
+	})
+	$('.yzf-list1').on('click',function(){
+		location.href='yzf-xinwen2.html';
+	})
+		$('.yzf-list2').on('touchstart',function(){
+		location.href='yzf-xinwen2.html';
+	})
+	$('.yzf-list2').on('click',function(){
+		location.href='yzf-xinwen2.html';
+	})
+		$('.yzf-list3').on('touchstart',function(){
+		location.href='yzf-xinwen2.html';
+	})
+	$('.yzf-list3').on('click',function(){
+		location.href='yzf-xinwen2.html';
+	})
+		$('.yzf-list4').on('touchstart',function(){
+		location.href='yzf-xinwen2.html';
+	})
+	$('.yzf-list4').on('click',function(){
+		location.href='yzf-xinwen2.html';
+	})
 //	$('.yzf-list1').hover(function(){
 //		$(this).css({
 //			background:'#F6F5F5',

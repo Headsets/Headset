@@ -158,12 +158,13 @@ body {
     background: #fff;
     overflow: hidden; }
     .box1 > .yzf-nav {
-      width: 80%;
-      height: 60px;
+      width: 50%;
+      height: 80px;
       background-image: url(../img/yzf/xinwen1_03.png);
-      background-size: cover;
+      background-size: contain;
+      background-repeat: no-repeat;
       background-position: center;
-      margin: 0px auto auto auto; }
+      margin: 20px auto auto auto; }
     .box1 > .yzf-down {
       width: 30px;
       height: 30px;
