@@ -14,13 +14,6 @@
 		<!-- <script src="../js/swiper.js"></script> -->
 	    <script src='../js/ly.js'></script>
 	    <script src="../js/common.js"></script>
-	    <script type="text/javascript">	    
-			var scrWidth = window.screen.width;    
-			if(screen.width < 750){    
-				document.write("<script src='../js/swiper.js'>"+"</"+"script>"); 
-				// console.log("<script src='../js/swiper.js'>"+"</"+"script>")   
-			}    		    
-		</script>
 	</head>
 	<body>
 		<header class="swiper-container">
@@ -341,3 +334,8 @@
 	</footer>
 	</body>
 </html>
+<script> 
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 5000,//可选选项，自动滑动
+})
+</script>
