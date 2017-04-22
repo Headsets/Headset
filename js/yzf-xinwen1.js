@@ -1,4 +1,8 @@
-//$(document).ready(function(){
+$(document).ready(function(){
+	$('.navmin > div').last().on('touchstart',function(){
+		$('.navmin > div ul').toggle(200)
+	})
+	
 //	$('.yzf-list1').hover(function(){
 //		$(this).css({
 //			background:'#F6F5F5',
@@ -59,4 +63,4 @@
 //			width:'85%',
 //		});
 //	})
-//})
+})
