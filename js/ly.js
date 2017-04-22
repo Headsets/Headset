@@ -12,15 +12,15 @@ if(screen.width < 750){
 	
 				// document.write("<script src='../js/swiper.js'><//script>");    
 			var swiper = new Swiper('.swiper-container', {
-		    // pagination: '.swiper-pagination',
+		    pagination: '.swiper-pagination',
 		    // nextButton: '.swiper-button-next',
 		    // prevButton: '.swiper-button-prev',
 		    paginationClickable: true,
 		    spaceBetween: 0,
 		    centeredSlides: true,
-		    autoplay: 0,
-		    // autoplay: 2500,
-		    // loop: true,
+		    // autoplay: 0,
+		    autoplay: 2500,
+		    loop: true,
 		    autoplayDisableOnInteraction: false
 		});
 // });  

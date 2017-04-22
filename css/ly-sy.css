@@ -59,6 +59,13 @@
     height: 400px;
     position: relative;
   }
+  header .swiper-pagination {
+    height: auto;
+    position: absolute;
+    bottom: 20px !important;
+    left: 50% !important;
+    margin-left: -50px;
+  }
   header .swiper-pagination > span.swiper-pagination-bullet {
     float: left;
     width: 15px;
@@ -75,13 +82,6 @@
     background: red;
     border-radius: 6px;
     opacity: 1;
-  }
-  header .swiper-pagination {
-    height: auto;
-    position: absolute;
-    bottom: 20px !important;
-    left: 50% !important;
-    margin-left: -50px;
   }
   header .one {
     background: url(../img/ly/lybanner2.png);
