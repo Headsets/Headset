@@ -1,8 +1,8 @@
 $(document).ready(function(){
 //	鼠标一入一出
-	$(window).resize(function(){
+//	$(window).resize(function(){
 		let width=$(window).width()
-		if(width>750){
+//		if(width>750){
 			$('.col-lg-4 img').each(function(index,val){
 				$(this).hover(function(){
 					$(this).css({
@@ -14,8 +14,8 @@ $(document).ready(function(){
 					})
 				})
 			})
-		}
-	})
+//		}
+//	})
 	
 	//	表单验证
 	$('#form').validate({
