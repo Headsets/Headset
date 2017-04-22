@@ -8,21 +8,22 @@ $(document).ready(function(){
 
 	var scrWidth = window.screen.width;
 if(screen.width < 750){  
-$.getScript("../js/swiper.js",function(){ 
+// $.getScript("../js/swiper.js",function(){ 
 	
 				// document.write("<script src='../js/swiper.js'><//script>");    
 			var swiper = new Swiper('.swiper-container', {
-		    pagination: '.swiper-pagination',
+		    // pagination: '.swiper-pagination',
 		    // nextButton: '.swiper-button-next',
 		    // prevButton: '.swiper-button-prev',
 		    paginationClickable: true,
 		    spaceBetween: 0,
 		    centeredSlides: true,
-		    autoplay: 2500,
-		    loop: true,
+		    autoplay: 0,
+		    // autoplay: 2500,
+		    // loop: true,
 		    autoplayDisableOnInteraction: false
 		});
-});  
+// });  
 	}else{
 	//	banner
 	let lis=$('header>ul>li')

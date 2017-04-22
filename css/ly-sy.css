@@ -6,6 +6,8 @@
     list-style: none;
   }
   .swiper-container {
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -74,37 +76,27 @@
     border-radius: 6px;
     opacity: 1;
   }
-  header > ul.swiper-pagination {
-    width: 200px;
+  header .swiper-pagination {
     height: auto;
     position: absolute;
     bottom: 20px !important;
     left: 50% !important;
     margin-left: -50px;
   }
-  header > ul.swiper-pagination li {
-    display: none;
-  }
-  header > ul.swiper-pagination .licolor {
-    display: none;
-  }
-  header .ly-banner div.one {
+  header .one {
     background: url(../img/ly/lybanner2.png);
     background-position: center center;
     background-size: 100% 100%;
   }
-  header .ly-banner div.two {
+  header .two {
     background: url(../img/ly/zhc-aboutban_01.png);
     background-position: center center;
     background-size: 100% 100%;
   }
-  header .ly-banner div.three {
+  header .three {
     background: url(../img/ly/banner2_02.png);
     background-position: center center;
     background-size: 100% 100%;
-  }
-  header .zjt, header .yjt {
-    display: none;
   }
   header .navmax {
     display: none;
@@ -680,6 +672,11 @@
     width: 17px;
     height: 17px;
     margin: 0 5px;
+  }
+  .zhc-footermin div a {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
   .zhc-footermin .zhc-fotend {
     border-top: 1px solid #b0b0b0;

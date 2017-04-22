@@ -11,25 +11,42 @@
 		<!-- <link rel="stylesheet" href="../css/swiper.css"> -->
 	    <link rel="stylesheet" href="../css/common.css">
 	    <link rel="stylesheet" href="../css/ly-sy.css">
-		<!-- <script src="../js/swiper.js"></script> -->
+		<script src="../js/swiper.js"></script>
 	    <script src='../js/ly.js'></script>
 	    <script src="../js/common.js"></script>
 	</head>
 	<body>
-		<header class="swiper-container">
-		<div class="swiper-wrapper ly-banner">
-			<div class="swiper-slide ban-box ly-op one"></div>
-			<div class="swiper-slide ban-box two"></div>
-			<div class="swiper-slide ban-box three"></div>
+		<header>
+		<div class="ly-banner hidden-xs">
+			<div class="ban-box ly-op"></div>
+			<div class="ban-box"></div>
+			<div class="ban-box"></div>
 		</div>
-		<div class='swiper-button-prev zjt'>&lt;</div>
-		<div class='swiper-button-next yjt'>&gt;</div>
-		<ul class="swiper-pagination">
+		<div class='zjt hidden-xs'>&lt;</div>
+		<div class='yjt hidden-xs'>&gt;</div>
+		<ul class="hidden-xs">
 			<li class="licolor"></li>
 			<li></li>
 			<li></li>
 		</ul>
-		
+		<!-- 2号轮播 -->
+		<div class="swiper-container visible-xs">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide one"></div>
+				<div class="swiper-slide two"></div>
+				<div class="swiper-slide three"></div>
+			</div>
+			<div class="swiper-pagination"></div>
+<!-- 			<div class='swiper-button-prev zjt'>&lt;</div>
+			<div class='swiper-button-next yjt'>&gt;</div> -->
+		</div>
+
+
+
+
+
+
+
 		<nav class="navmax">
             <div class="juone" style="background: rgba(255,255,255,0.3);"></div>
             <div class="sy2"></div>
