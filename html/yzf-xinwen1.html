@@ -206,41 +206,37 @@
 </html>
 <script>
 	
-$(document).ready(function(){
+//$(document).ready(function(){
 	//	导航栏划入划出
 	$('.navmin > div').last().on('touchstart',function(){
 		$('.navmin > div ul').toggle(200)
 	})
 	
-//	大屏返回顶部
-	$('.zhc-fot a').click(function(){
-		let back = $(".zhc-fot").offset().top;
-    	$("html,body").animate({scrollTop: 0}, 500);   //带滑动效果的跳转
-	})
-	
-	$('.yzf-list1')[0].addEventListener('touchstart',function(){
+
+	console.log($('.yzf-list1')[0])
+	$('.yzf-list1')[0].addEventListener('click',function(){
 		location.href=('yzf-xinwen2.html');
 	})
 //	$('.yzf-list1').click(function(){
 //		location.href=('yzf-xinwen2.html');
 //	})
-	$('.yzf-list2').click(function(){
-		location.href=('yzf-xinwen2.html');
-	})
-	$('.yzf-list2').on('touchstart',function(){
-		location.href=('yzf-xinwen2.html');
-	})
-	$('.yzf-list3').click(function(){
-		location.href=('yzf-xinwen2.html');
-	})
-	$('.yzf-list3').on('touchstart',function(){
-		location.href=('yzf-xinwen2.html');
-	})
-	$('.yzf-list4').click(function(){
-		location.href=('yzf-xinwen2.html');
-	})
-	$('.yzf-list4').on('touchstart',function(){
-		location.href=('yzf-xinwen2.html');
-	})
-})
+//	$('.yzf-list2').click(function(){
+//		location.href=('yzf-xinwen2.html');
+//	})
+//	$('.yzf-list2').on('touchstart',function(){
+//		location.href=('yzf-xinwen2.html');
+//	})
+//	$('.yzf-list3').click(function(){
+//		location.href=('yzf-xinwen2.html');
+//	})
+//	$('.yzf-list3').on('touchstart',function(){
+//		location.href=('yzf-xinwen2.html');
+//	})
+//	$('.yzf-list4').click(function(){
+//		location.href=('yzf-xinwen2.html');
+//	})
+//	$('.yzf-list4').on('touchstart',function(){
+//		location.href=('yzf-xinwen2.html');
+//	})
+//})
 </script>
