@@ -5,8 +5,11 @@ $(document).ready(function(){
 		console.log(height)
 		$('.zhc-footer').css('marginTop','height')
 	})
+
 	var scrWidth = window.screen.width;
-if(screen.width < 750){    
+if(screen.width < 750){  
+$.getScript("../js/swiper.js",function(){ 
+	
 				// document.write("<script src='../js/swiper.js'><//script>");    
 			var swiper = new Swiper('.swiper-container', {
 		    pagination: '.swiper-pagination',
@@ -19,6 +22,7 @@ if(screen.width < 750){
 		    loop: true,
 		    autoplayDisableOnInteraction: false
 		});
+});  
 	}else{
 	//	banner
 	let lis=$('header>ul>li')
@@ -71,3 +75,5 @@ if(screen.width < 750){
 }    		
 	
 })
+
+
