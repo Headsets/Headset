@@ -1,11 +1,25 @@
 $(document).ready(function(){
 	$(window).resize(function(){
+		location.reload();
 		let height=parseInt($('article').css('height'))
 		console.log(height)
 		$('.zhc-footer').css('marginTop','height')
 	})
-	
-
+	var scrWidth = window.screen.width;
+if(screen.width < 750){    
+				// document.write("<script src='../js/swiper.js'><//script>");    
+			var swiper = new Swiper('.swiper-container', {
+		    pagination: '.swiper-pagination',
+		    // nextButton: '.swiper-button-next',
+		    // prevButton: '.swiper-button-prev',
+		    paginationClickable: true,
+		    spaceBetween: 0,
+		    centeredSlides: true,
+		    autoplay: 2500,
+		    loop: true,
+		    autoplayDisableOnInteraction: false
+		});
+	}else{
 	//	banner
 	let lis=$('header>ul>li')
 	console.log(lis);
@@ -54,5 +68,6 @@ $(document).ready(function(){
 		imgs.eq(n).addClass('ly-op').siblings().removeClass('ly-op')
 	})
 
-
+}    		
+	
 })

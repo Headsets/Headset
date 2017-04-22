@@ -183,13 +183,13 @@ body{
     width:89%;
     height:auto;
     position:absolute;
-    top:500px;
+    top:420px;
     left:5.5%;
     background:#fff;
     overflow: hidden;
     > .yzf-nav{
-        width:330px;
-        height:100px;
+        width:80%;
+        height:60px;
         background-image:url(../img/yzf/xinwen1_03.png);
         background-size:cover;
         background-position: center;
@@ -209,7 +209,7 @@ body{
         background-image:url(../img/yzf/xinwen1_07.png);
         background-size:cover;
         background-position: center;
-        margin:20px auto 0 8%;
+        margin:0 auto 0 8%;
     }
     > .yzf-list1{
         width:85%;
@@ -249,19 +249,19 @@ body{
                 position:absolute;
                 top:4px;
                 right:10px;
+                margin-top:25px;
             }
             >h5{
                 font-size:14px;
                 font-family: "Arial";
                 color:#898888;
-                text-align: center;
+                text-align: justify;
             }
             >h3{
                 font-size:14px;
                 font-family: "微软雅黑";
                 color:#000;
-//              margin-left:15px;
-                margin-top:7px;
+                margin-top:20px;
             }
             >h4{
                 font-size:14px;
@@ -316,6 +316,7 @@ body{
                 position:absolute;
                 top:4px;
                 right:10px;
+                margin-top:25px;
             }
             >h5{
                 font-size:14px;
@@ -326,7 +327,7 @@ body{
                 font-size:14px;
                 font-family: "微软雅黑";
                 color:#000;
-                margin-top:7px;
+                margin-top:20px;
             }
             >h4{
                 text-align:justify;
@@ -379,17 +380,19 @@ body{
                 position:absolute;
                 top:4px;
                 right:10px;
+                margin-top:25px;
             }
             >h5{
                 font-size:14px;
                 font-family: "Arial";
                 color:#898888;
+//              margin-top:20px;
             }
             >h3{
                 font-size:14px;
                 font-family: "微软雅黑";
                 color:#000;
-                margin-top:7px;
+                margin-top:20px;
             }
             >h4{
                 font-size:14px;
@@ -476,6 +479,7 @@ body{
                 position:absolute;
                 top:4px;
                 right:10px;
+                margin-top:25px;
             }
             >h5{
                 font-size:14px;
@@ -486,7 +490,7 @@ body{
                 font-size:14px;
                 font-family: "微软雅黑";
                 color:#000;
-                margin-top:7px;
+                margin-top:20px;
             }
             >h4{
                 font-size:14px;
@@ -505,7 +509,7 @@ body{
     }
     >.ss{
             text-align: center;
-            margin-top: 50px;
+            margin-top: 30px;
             display: none;
             .pagination{
                 border-radius: 50%; 
@@ -561,7 +565,7 @@ body{
         }
         >.ss2{
             text-align: center;
-            margin-top: 50px;
+            margin-top: 30px;
             .pagination{
                 border-radius: 50%; 
                 display: inline-block;
@@ -724,7 +728,7 @@ body{
         background-image:url(../img/yzf/xinwen1_03.png);
         background-size:cover;
         background-position: center;
-        margin:0 auto auto auto;
+        margin:80px auto auto auto;
     } 
     > .yzf-down{
         width:30px;
