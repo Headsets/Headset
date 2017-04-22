@@ -5,7 +5,7 @@ $(document).ready(function(){
 	
 	
 	$('.yzf-list1').on('touchstart',function(){
-		location.href='https://htmlpreview.github.io/?https://github.com/Headsets/Headset/blob/master/html/yzf-xinwen2.html';
+		location.href='https://github.com/Headsets/Headset/blob/master/html/yzf-xinwen2.html';
 	})
 	$('.yzf-list1').on('click',function(){
 		location.href='yzf-xinwen2.html';
