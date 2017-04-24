@@ -201,6 +201,7 @@ ul{
 			top:-70px;
 			left:-317px;
 		}
+
 		background:rgb(255,255,255);
 		.zl-title1{
 			width:100%;
@@ -209,7 +210,8 @@ ul{
 		}
 		.row{
 			height:345px;
-			// width:293px;
+			// max-width:634px;
+			// width:100%;
 			// background:red;
 			margin-bottom:107px;
 		}
@@ -531,6 +533,7 @@ ul{
 		}
 		.row{
 			height:426px;
+
 			// width:293px;
 			// background:red;
 			margin-bottom:110px;
@@ -650,6 +653,18 @@ ul{
 	height:474px;
 	margin:0 auto;
 	background:rgb(0,0,0);
+}
+}
+// 大二屏内容
+@media screen and (min-width:751px) and (max-width:1200px){
+
+.zl-wrap2{
+	.zl-product{
+		width:800px;
+		margin:{
+			left:-400px;
+		}
+	}
 }
 }
 // 手机屏其实是小屏除以2Σ( ° △ °|||)︴
